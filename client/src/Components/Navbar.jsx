@@ -1,9 +1,10 @@
 import React from 'react';
-// import RegistrationForm from './Register';
+
 import './Styles/Navbar.css';
 import { NavLink } from 'react-router-dom';
 // import { useAuth } from './../AuthProvider';
-// import Login from './Login';
+import { Login,RegistrationForm } from './Aunthenticate'
+
 function Navbar() {
     // const auth = useAuth();
     const handleLogout = () => {
@@ -39,33 +40,33 @@ function Navbar() {
                         </ul>
                         <ul className='login-button'>
                             {/* {!auth.user && */}
-                                <li className="nav-item">
-                                    <button
-                                        className="btn btn-primary loginbtn"
-                                        data-bs-toggle="modal"
-                                        data-bs-target="#registerModal"
-                                    >
-                                        <i className="fa-solid fa-unlock-keyhole"></i>&nbsp;Register
-                                    </button>
-                                </li>
+                            <li className="nav-item">
+                                <button
+                                    className="btn btn-primary loginbtn"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#registerModal"
+                                >
+                                    <i className="fa-solid fa-unlock-keyhole"></i>&nbsp;Register
+                                </button>
+                            </li>
                             {/* } */}
                         </ul>
                         <ul className='login-button'>
 
                             {/* {!auth.user && */}
-                                <li className="nav-item">
-                                    <button
-                                        className="btn btn-primary loginbtn"
-                                        data-bs-toggle="modal"
-                                        data-bs-target="#loginrModal"
-                                    >
-                                        <i className="fa-solid fa-unlock-keyhole"></i>&nbsp;Login
-                                    </button>
+                            <li className="nav-item">
+                                <button
+                                    className="btn btn-primary loginbtn"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#loginrModal"
+                                >
+                                    <i className="fa-solid fa-unlock-keyhole"></i>&nbsp;Login
+                                </button>
 
-                                </li>
+                            </li>
                             {/* } */}
                             {/* {auth.user && */}
-                                {/* <li className="nav-item">
+                            {/* <li className="nav-item">
                                     <button
                                         className="btn btn-primary loginbtn"
                                         onClick={handleLogout}
@@ -78,8 +79,8 @@ function Navbar() {
                     </div>
                 </div>
             </nav>
-            {/* <Login />
-            <RegistrationForm /> */}
+            <Login />
+            <RegistrationForm />
         </>
     );
 }
