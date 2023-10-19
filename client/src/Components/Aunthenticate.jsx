@@ -3,6 +3,8 @@ import './Styles/Aunthenticate.css';
 import axios from 'axios';
 import { toast } from "react-toastify";
 
+
+
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
 
 function RegistrationForm() {
@@ -31,7 +33,7 @@ function RegistrationForm() {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:8080/api/register', {
+            const response = await axios.post('http://localhost:8000/api/register', {
                 fname,
                 lname,
                 email,
@@ -40,23 +42,19 @@ function RegistrationForm() {
             });
 
             console.log(response);
-            if (response.data) {
-                setMessage('User registered successfully!');
+            if (response.status === 201) {
+                toast.success("User registered successfully!", { position: "bottom-right" });
                 setFname('');
                 setLname('');
                 setEmail('');
                 setPwd('');
                 setCpwd('');
                 setRole('');
-            } else {
-                setMessage('Registration failed.');
+            } else if (response.data === 'user already exist') {
+                toast.info("User Already exist", { position: "bottom-right" });
             }
         } catch (error) {
-            if (error.response && error.response.status === 400) {
-                setMessage('User already exists.');
-            } else {
-                setMessage('An error occurred during registration.');
-            }
+            toast.error("Internal server error", { position: "bottom-right" });
         }
     };
 
@@ -167,33 +165,32 @@ function Login() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:8080/api/login', { email, password });
-            if (response.data.includes('successful')) {
+            const response = await axios.post('http://localhost:8000/api/login', { email, password });
+            console.log("fghjkl")
+            if (response.data === "invalid") {
                 console.log(response.data);
-                setMessage('Login successful');
-                toast.success('Login successful', {
-                    position: 'bottom-right',
-                });
-            } else if (response.data.includes('failed')) {
-                setMessage('Invalid username or password');
-                toast.error('Invalid username or password', {
-                    position: 'bottom-right',
-                });
-            } else {
-                setMessage('An error occurred during login');
-                toast.error('An error occurred during login', {
-                    position: 'bottom-right',
+                toast.info("unauthorised credentials", { position: "bottom-right" });
+            } else if (response.data === "newuser") {
+                console.log(response.data);
+                toast.info("unauthorised credentials", { position: "bottom-right" });
+            } else if (response.status === 200) {
+                toast.success("Login Successful", {
+                    position: "bottom-right",
+                    theme: "dark",
                 });
             }
+
         } catch (error) {
-            setMessage('An error occurred during login');
-            toast.error('An error occurred during login', {
-                position: 'bottom-right',
+            console.error("Error during login:", error);
+            toast.error("Internal server error", {
+                position: "bottom-right",
+                theme: "dark",
             });
         }
         setEmail('');
         setPassword('');
     };
+
 
     return (
         <div className="modal fade modal-lg" id="loginrModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
