@@ -1,0 +1,159 @@
+/* commumity post card style */
+.Community{
+    margin-top: 20px;
+}
+.Community header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.Community .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Community h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.Community .post {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Community .post img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Community .post-content {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.Community .post-author {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.Community .user-profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.Community .author-options {
+    font-size: 24px;
+    cursor: pointer;
+    
+    
+}
+
+.Community .post-date {
+    color: #888;
+    font-size: 14px;
+}
+
+.Community .post-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Community .like-button,
+.Community .comment-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    color: #0073e6;
+}
+
+.Community .like-button::before {
+    content: "\2764";
+    /* Heart icon */
+}
+
+.Community .comment-button::before {
+    content: "\2709";
+
+}
+
+
+
+
+
+/* Post form style */
+.PostForm .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.PostForm h1 {
+    font-size: 24px;
+}
+
+.PostForm .post-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.PostForm .post-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.PostForm .post-form input[type="file"] {
+    margin-top: 10px;
+}
+
+.PostForm .post-form button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.PostForm .post {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.PostForm .post img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}

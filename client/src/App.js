@@ -1,22 +1,23 @@
 import React from 'react';
-import Navbar from './Components/Navbar';
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Navbar from './Components/Navbar';
+import Community from './Components/Community'
 
 
 function App() {
-    return (
-        <BrowserRouter>
-            <div className="App">
-              
-                <Navbar />
-                <Routes>
-                  
-                </Routes>
-               
-            </div>
-        </BrowserRouter>
-    );
+  return (
+    <BrowserRouter>
+      <div className="App">
+
+        <Navbar />
+        <Routes>
+          <Route path='/community' element={<Community />} />
+        </Routes>
+
+      </div>
+    </BrowserRouter>
+  );
 }
 
 export default App;
