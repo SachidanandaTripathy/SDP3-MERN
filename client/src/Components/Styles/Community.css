@@ -102,58 +102,163 @@
 
 
 
-/* Post form style */
-.PostForm .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
-
-.PostForm h1 {
-    font-size: 24px;
-}
-
-.PostForm .post-form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
+/* Post Button style */
+.PostForm .custom-form{
+    width:900px;
+    border: 5px solid black;
+    border-radius: 50px;
     margin-top: 20px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    
+}
+.PostForm p{
+   text-align: center;
+    
+}
+.PostForm button{
+ 
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid whitesmoke;
+    width: 170px;
+    height: 50px;
+    background-image: linear-gradient(rgb(224, 52, 190),rgb(36, 195, 36));
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+
 }
 
-.PostForm .post-form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    resize: none;
-}
 
-.PostForm .post-form input[type="file"] {
-    margin-top: 10px;
-}
 
-.PostForm .post-form button {
-    background-color: #0073e6;
+/* Post form styles */
+.posting{
+    background-image: linear-gradient(45deg, #7c23a6 0%, #1ca537 100%);
     color: white;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.posting .button {
+    /* appaerance: none; */
+    font: inherit;
     border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
+    background: none;
     cursor: pointer;
-}
-
-.PostForm .post {
-    margin-top: 20px;
+  }
+  
+  .posting  .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+  }
+  
+  .posting  .modal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
     background-color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.PostForm .post img {
+    box-shadow: 0 15px 30px 0 rgba(0, 125, 171, 0.15);
+    border-radius: 10px;
+  }
+  
+  .posting  .modal__header {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .posting  .modal__body {
+    padding: 1rem 1rem;
+  }
+  
+  .posting .modal__footer {
+    padding: 0 1.5rem 1.5rem;
+  }
+  
+  .posting .modal__title {
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+  
+  .posting .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.15s ease;
+  }
+  
+  .posting .button--icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border-radius: 0.25rem;
+  }
+  
+  .posting  .button--icon:focus, .button--icon:hover {
+    background-color: #ededed;
+  }
+  
+  .posting .button--primary {
+    background-color: #007dab;
+    color: #FFF;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+  }
+  
+  .posting  .button--primary:hover {
+    background-color: #006489;
+  }
+  
+  .posting .input {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .posting  .input + .input {
+    margin-top: 1.75rem;
+  }
+  
+  .posting  .input__label {
+    font-weight: 700;
+    font-size: 0.875rem;
+  }
+  
+  .posting  .input__field {
+    display: block;
+    margin-top: 0.5rem;
+    border: 1px solid #DDD;
+    border-radius: 0.25rem;
+    padding: 0.75rem 0.75rem;
+    transition: 0.15s ease;
+  }
+  
+  .posting  .input__field:focus {
+    outline: none;
+    border-color: #007dab;
+    box-shadow: 0 0 0 1px #007dab, 0 0 0 4px rgba(0, 125, 171, 0.25);
+  }
+  
+  .posting  .input__field--textarea {
+    min-height: 100px;
     max-width: 100%;
-    height: auto;
-    margin-top: 10px;
-}
+  }
+  
+  .posting  .input__description {
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    color: #8d8d8d;
+  }

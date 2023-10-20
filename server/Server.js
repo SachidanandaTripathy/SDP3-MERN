@@ -6,6 +6,8 @@ const bodyParser = require("body-parser");
 
 const register = require("./Routes/register");
 const login = require("./Routes/Login")
+const post=require("./Routes/CommunityPost")
+const postRetrieve=require("./Routes/CommunityRetrieve")
 
 const app = express();
 
@@ -17,6 +19,7 @@ mongoose.connect('mongodb://localhost:27017/SDP3_MERN', {
 
 app.use(bodyParser.json())
 app.use(express.json());
+app.use(express.static('uploads'))
 app.use(cors({
     origin: 'http://localhost:3000',
     credentials: true,
@@ -25,6 +28,8 @@ app.use(cors({
 
 app.use("/api", register);
 app.use("/api", login);
+app.use("/api", post);
+app.use("/api",postRetrieve)
 
 
 //listening on port
