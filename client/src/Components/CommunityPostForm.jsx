@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import './Styles/Community.css'
 import { useAuth } from '../AuthContext';
+import { toast } from "react-toastify";
 import axios from 'axios';
+import { Login } from './Aunthenticate';
 
 function PostForms() {
   const [title, setTitle] = useState('');
@@ -23,18 +25,18 @@ function PostForms() {
     console.log(auth.user.fname)
     console.log(auth.user.lname)
 
-    const currentDate = new Date().toISOString().split('T')[0];
-    // formData.append('date', currentDate);
 
     axios
       .post('http://localhost:8000/api/community', formData)
       .then((response) => {
         console.log('Response:', response.data);
         if (response.status === 200) {
+          toast.success("successfully posted!", { position: "bottom-right" });
           console.log('Successfully added');
         }
       })
       .catch((error) => {
+        toast.error("Internal sever erroor!", { position: "bottom-right" });
         console.error('Error:', error);
       });
 
@@ -106,6 +108,7 @@ function PostForms() {
 }
 
 function CommunityPostForm() {
+  const auth = useAuth();
   return (
     <div className="PostForm">
 
@@ -113,16 +116,25 @@ function CommunityPostForm() {
         <div className="card custom-form">
           <div className="card-body d-flex align-items-center">
             <p className="flex-grow-1">
-              This is an example sentence. Replace this with your own content
+              Become a part of our community and share your achievements
             </p>
-            <button type="button" className="btn" data-bs-toggle="modal"
-              data-bs-target="#PostFormModal">
-              Button
-            </button>
+            {auth.user &&
+              <button type="button" className="btn" data-bs-toggle="modal"
+                data-bs-target="#PostFormModal">
+                Post
+              </button>
+            }
+            {!auth.user &&
+              <button type="button" className="btn" data-bs-toggle="modal"
+                data-bs-target="#loginrModal">
+                Login
+              </button>
+            }
           </div>
         </div>
       </div>
       <PostForms />
+      <Login />
     </div>
   )
 }

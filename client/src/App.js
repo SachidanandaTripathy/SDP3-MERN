@@ -15,16 +15,6 @@ function App() {
       <div className="App">
         <ToastContainer />
         <Navbar />
-        <div>
-          {user && (
-            <div>
-              <p>{user.fname}</p>
-              <p>{user.lname}</p>
-              <p>Username: {user.email}</p>
-              <p>Role: {user.role}</p>
-            </div>
-          )}
-        </div>
         <Routes>
           <Route path="/community" element={<Community />} />
         </Routes>
