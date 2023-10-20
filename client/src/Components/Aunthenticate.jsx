@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
-import './Styles/Aunthenticate.css';
 import axios from 'axios';
 import { toast } from "react-toastify";
+import { useAuth } from './../AuthContext';
 
+import './Styles/Aunthenticate.css';
 
 
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
@@ -18,7 +19,7 @@ function RegistrationForm() {
     const [validPwd, setValidPwd] = useState(false);
     const [cpwd, setCpwd] = useState('');
     const [validMatch, setValidMatch] = useState(false);
-    const [message, setMessage] = useState('');
+
 
     useEffect(() => {
         fnameRef.current.focus();
@@ -145,7 +146,7 @@ function RegistrationForm() {
                                     Sign Up
                                 </button>
 
-                                {message && <p className={message.includes('successfully') ? 'success' : 'error'}>{message}</p>}
+                                {/* {message && <p className={message.includes('successfully') ? 'success' : 'error'}>{message}</p>} */}
 
                                 <p className="signin">Already have an account? <a href="#">Sign in</a></p>
                             </form>
@@ -158,9 +159,9 @@ function RegistrationForm() {
 }
 
 function Login() {
+    const auth = useAuth();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [message, setMessage] = useState('');
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -174,12 +175,14 @@ function Login() {
                 console.log(response.data);
                 toast.info("unauthorised credentials", { position: "bottom-right" });
             } else if (response.status === 200) {
+                const userData = response.data.user;
+                auth.login(userData);
                 toast.success("Login Successful", {
                     position: "bottom-right",
                     theme: "dark",
                 });
+                console.log('User Data:', userData);
             }
-
         } catch (error) {
             console.error("Error during login:", error);
             toast.error("Internal server error", {
@@ -251,7 +254,7 @@ function Login() {
                                         <button className="button-submit" type="submit">Sign In</button>
 
                                         <p className="p">Don't have an account? <span className="span">Sign Up</span></p>
-                                        {message && <p className="message">{message}</p>}
+                                        {/* {message && <p className="message">{message}</p>} */}
                                     </form>
                                 </div>
                             </div>
