@@ -1,13 +1,18 @@
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
-
 const bodyParser = require("body-parser");
+
+
 
 const register = require("./Routes/register");
 const login = require("./Routes/Login")
 const post=require("./Routes/CommunityPost")
 const postRetrieve=require("./Routes/CommunityRetrieve")
+const Application=require("./Routes/ApplicationForm")
+
+
+
 
 const app = express();
 
@@ -30,6 +35,7 @@ app.use("/api", register);
 app.use("/api", login);
 app.use("/api", post);
 app.use("/api",postRetrieve)
+app.use("/api",Application)
 
 
 //listening on port
