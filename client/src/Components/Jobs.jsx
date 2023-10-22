@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import './Styles/Jobs.css';
 import jobsData from './Json/Jobs.json';
-import JobApplication from './JobApplication';
+import JobApplication,{handleApplyNow} from './JobApplication';
 
 function Freshers() {
   const rowRef = useRef(null);
@@ -63,7 +63,7 @@ function Freshers() {
                 <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}
                   data-bs-toggle="modal"
                   data-bs-target="#ApplicationModal">
-                  <button>Apply Now</button>
+                  <button onClick={() => handleApplyNow(job.companyName, job.jobTitle)}>Apply Now</button>
                 </div>
               </div>
 

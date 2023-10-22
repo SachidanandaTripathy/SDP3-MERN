@@ -4,6 +4,16 @@ import { useAuth } from '../AuthContext';
 import axios from 'axios';
 import './Styles/Jobs.css';
 
+let globalCompanyName;
+let globalJobTitle;
+
+export const handleApplyNow = (companyName, jobTitle) => {
+  globalCompanyName = companyName;
+  globalJobTitle = jobTitle;
+  console.log("Company Name:", globalCompanyName);
+  console.log("Job Title:", globalJobTitle);
+};
+
 function JobApplication() {
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
@@ -19,6 +29,8 @@ function JobApplication() {
     formData.append('phoneNumber', phoneNumber);
     formData.append('coverLetter', coverLetter);
     formData.append('resume', resume);
+    formData.append('companyName', globalCompanyName);
+    formData.append('jobTitle', globalJobTitle);
 
     try {
       const response = await axios.post('http://localhost:8000/api/application', formData, {
@@ -56,23 +68,23 @@ function JobApplication() {
                 <form onSubmit={handleFormSubmit}>
                   <div className="form-group">
                     <label htmlFor="fullName">Full Name:</label>
-                    <input type="text" className="form-control" id="fullName" placeholder="Enter your full name" required value={fullName} onChange={(e) => setFullName(e.target.value)} />
+                    <input type="text" className="form-control" placeholder="Enter your full name" required value={fullName} onChange={(e) => setFullName(e.target.value)} />
                   </div>
                   <div className="form-group">
                     <label htmlFor="email">Email address:</label>
-                    <input type="email" className="form-control" id="email" placeholder="Enter email" required value={email} onChange={(e) => setEmail(e.target.value)} />
+                    <input type="email" className="form-control"  placeholder="Enter email" required value={email} onChange={(e) => setEmail(e.target.value)} />
                   </div>
                   <div className="form-group">
                     <label htmlFor="phone">Phone Number:</label>
-                    <input type="tel" className="form-control" id="phone" placeholder="Enter your phone number" required value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} />
+                    <input type="tel" className="form-control" placeholder="Enter your phone number" required value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} />
                   </div>
                   <div className="form-group">
                     <label htmlFor="resume">Upload Resume:</label>
-                    <input type="file" className="form-control-file" id="resume" required onChange={(e) => setResume(e.target.files[0])} />
+                    <input type="file" className="form-control-file" required onChange={(e) => setResume(e.target.files[0])} />
                   </div>
                   <div className="form-group">
                     <label htmlFor="coverLetter">Describe yourself:</label>
-                    <textarea className="form-control" id="coverLetter" rows="5" required value={coverLetter} onChange={(e) => setCoverLetter(e.target.value)}></textarea>
+                    <textarea className="form-control"  rows="5" required value={coverLetter} onChange={(e) => setCoverLetter(e.target.value)}></textarea>
                   </div>
                   <div className="button-container">
                     <button type="submit" className="btn">Submit</button>

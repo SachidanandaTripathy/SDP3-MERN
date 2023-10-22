@@ -20,6 +20,14 @@ const ApplicationSchema = new mongoose.Schema({
   coverLetter: {
     type: String,
     required: true
+  },
+  companyName: {
+    type: String,
+    required: true
+  },
+  jobTitle: {
+    type: String,
+    required: true
   }
 });
 
