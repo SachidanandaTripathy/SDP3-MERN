@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Styles/HomePage.css';
 
 import jobsData from './Json/Jobs.json';
+import JobApplication from './JobApplication';
 
 function Freshers() {
   const [randomJobs, setRandomJobs] = useState([]);
@@ -46,14 +47,17 @@ function Freshers() {
                   ))}
                 </div>
                 <p className="card-text mt-3">{job.jobDescription}</p>
-                <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}
+                  data-bs-toggle="modal"
+                  data-bs-target="#ApplicationModal">
                   <button>Apply Now</button>
                 </div>
               </div>
             </div>
           </div>
         ))}
-         <button>view more</button>
+        <JobApplication/>
+        <button>view more</button>
       </div>
 
     </div>
@@ -62,61 +66,61 @@ function Freshers() {
 
 
 function Carousel() {
-    const [index, setIndex] = useState(0);
-    const handlePrev = () => {
-        setIndex(index > 0 ? index - 1 : 0);
-    };
-    const handleNext = () => {
-        setIndex(index < 2 ? index + 1 : 2);
-    };
+  const [index, setIndex] = useState(0);
+  const handlePrev = () => {
+    setIndex(index > 0 ? index - 1 : 0);
+  };
+  const handleNext = () => {
+    setIndex(index < 2 ? index + 1 : 2);
+  };
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setIndex((prevIndex) => (prevIndex < 2 ? prevIndex + 1 : 0));
-        }, 2000);
-        return () => clearInterval(interval);
-    }, []);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prevIndex) => (prevIndex < 2 ? prevIndex + 1 : 0));
+    }, 2000);
+    return () => clearInterval(interval);
+  }, []);
 
-    const images = [
-        "https://images.pexels.com/photos/4050425/pexels-photo-4050425.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/3811593/pexels-photo-3811593.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/3803517/pexels-photo-3803517.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ];
+  const images = [
+    "https://images.pexels.com/photos/4050425/pexels-photo-4050425.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "https://images.pexels.com/photos/3811593/pexels-photo-3811593.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "https://images.pexels.com/photos/3803517/pexels-photo-3803517.jpeg?auto=compress&cs=tinysrgb&w=800"
+  ];
 
-    return (
-        <div className='carousel'>
-            <div className="container-fluid p-0">
-                <div id="myCarousel" className="carousel slide" data-ride="carousel">
-                    <div className="carousel-inner">
-                        {images.map((image, i) => (
-                            <div key={i} className={`carousel-item ${i === index ? 'active' : ''}`}>
-                                <img src={image} alt={`Slide ${i}`} />
-                                <div className="carousel-caption">
-                                    <h3>Welcome to Our Website</h3>
-                                    <button>Display your skill</button>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                    <a className="carousel-control-prev" href="#myCarousel" data-slide="prev" onClick={handlePrev}>
-                        <span className="carousel-control-prev-icon"></span>
-                    </a>
-                    <a className="carousel-control-next" href="#myCarousel" data-slide="next" onClick={handleNext}>
-                        <span className="carousel-control-next-icon"></span>
-                    </a>
+  return (
+    <div className='carousel'>
+      <div className="container-fluid p-0">
+        <div id="myCarousel" className="carousel slide" data-ride="carousel">
+          <div className="carousel-inner">
+            {images.map((image, i) => (
+              <div key={i} className={`carousel-item ${i === index ? 'active' : ''}`}>
+                <img src={image} alt={`Slide ${i}`} />
+                <div className="carousel-caption">
+                  <h3>Welcome to Our Website</h3>
+                  <button>Display your skill</button>
                 </div>
-            </div>
+              </div>
+            ))}
+          </div>
+          <a className="carousel-control-prev" href="#myCarousel" data-slide="prev" onClick={handlePrev}>
+            <span className="carousel-control-prev-icon"></span>
+          </a>
+          <a className="carousel-control-next" href="#myCarousel" data-slide="next" onClick={handleNext}>
+            <span className="carousel-control-next-icon"></span>
+          </a>
         </div>
-    );
+      </div>
+    </div>
+  );
 }
 
 function Home() {
-    return (
-        <div>
-            <Carousel />
-            <Freshers/>
-        </div>
-    )
+  return (
+    <div>
+      <Carousel />
+      <Freshers />
+    </div>
+  )
 }
 
 export default Home;
