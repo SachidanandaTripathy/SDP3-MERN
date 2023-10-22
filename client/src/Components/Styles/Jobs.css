@@ -30,7 +30,7 @@
     border: 2px solid whitesmoke;
     border-radius: 20px;
     width: 500px;
-    height: 350px;
+    height: 420px;
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   }
   .Jobs span{
@@ -66,15 +66,23 @@
   }
   
   .Jobs .card-text {
-    color: #777;
+    color:black;
     font-size: 0.9rem;
     margin-top: 10px;
+  }
+  .Jobs button{
+    width:150px;
+    height:50px;
+    border: 3px solid whitesmoke;
+    border-radius: 20px;
+    background-color: purple;
+    color: whitesmoke;
   }
   
   @media (max-width: 768px) {
     .Jobs .card {
       width: 370px;
-      height: 370px;
+      height: 470px;
     }
   }
   
