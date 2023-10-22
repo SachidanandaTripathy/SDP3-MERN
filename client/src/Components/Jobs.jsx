@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import './Styles/Jobs.css';
 import jobsData from './Json/Jobs.json';
+import JobApplication from './JobApplication';
 
 function Freshers() {
   const rowRef = useRef(null);
@@ -59,7 +60,9 @@ function Freshers() {
                   ))}
                 </div>
                 <p className="card-text mt-3">{job.jobDescription}</p>
-                <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}
+                  data-bs-toggle="modal"
+                  data-bs-target="#ApplicationModal">
                   <button>Apply Now</button>
                 </div>
               </div>
@@ -69,6 +72,7 @@ function Freshers() {
         ))}
       </div>
       <hr />
+      <JobApplication />
     </div>
   );
 }
@@ -131,7 +135,9 @@ function Moderate_experience() {
                   ))}
                 </div>
                 <p className="card-text mt-3">{job.jobDescription}</p>
-                <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}
+                  data-bs-toggle="modal"
+                  data-bs-target="#ApplicationModal">
                   <button>Apply Now</button>
                 </div>
               </div>
@@ -142,6 +148,7 @@ function Moderate_experience() {
       </div>
 
       <hr />
+      <JobApplication />
     </div>
   );
 }
@@ -204,7 +211,9 @@ function Senior() {
                   ))}
                 </div>
                 <p className="card-text mt-3">{job.jobDescription}</p>
-                <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}
+                  data-bs-toggle="modal"
+                  data-bs-target="#ApplicationModal">
                   <button>Apply Now</button>
                 </div>
               </div>
@@ -215,6 +224,7 @@ function Senior() {
       </div>
 
       <hr />
+      <JobApplication />
     </div>
   );
 }

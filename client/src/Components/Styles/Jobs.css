@@ -1,8 +1,9 @@
-.Jobs{
+.Jobs {
     margin-top: 20px;
-    
+
 }
-.Jobs h2{
+
+.Jobs h2 {
     color: #07a211;
 }
 
@@ -12,77 +13,124 @@
     display: flex;
     gap: 10px;
     overflow-x: auto;
-    scrollbar-width: none; 
+    scrollbar-width: none;
     -ms-overflow-style: none;
-  }
-  
-  .Jobs .container::-webkit-scrollbar {
-    display: none; 
-  }
-  
-  .Jobs .row-card {
+}
+
+.Jobs .container::-webkit-scrollbar {
+    display: none;
+}
+
+.Jobs .row-card {
     display: flex;
     margin-bottom: 10px;
     text-align: center;
-  }
-  
-  .Jobs .card {
+}
+
+.Jobs .card {
     border: 2px solid whitesmoke;
     border-radius: 20px;
     width: 500px;
     height: 420px;
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-  }
-  .Jobs span{
-   
+}
+
+.Jobs span {
+
     font-weight: bold;
-  }
-  
-  .Jobs .card-body {
+}
+
+.Jobs .card-body {
     padding: 20px;
-  }
-  
-  .Jobs .card-title {
+}
+
+.Jobs .card-title {
     font-size: 20px;
     color: purple;
     font-weight: bold;
-  }
-  
-  .Jobs .vertical-line {
+}
+
+.Jobs .vertical-line {
     display: inline-block;
     border-left: 1px solid rgb(22, 8, 8);
     margin: 0 10px;
     height: 12px;
     vertical-align: middle;
-  }
-  
-  .Jobs .skill-tag {
+}
+
+.Jobs .skill-tag {
     display: inline-block;
     background-color: #05be68;
     color: whitesmoke;
     border-radius: 20px;
     padding: 5px 10px;
     margin: 5px 5px 0 0;
-  }
-  
-  .Jobs .card-text {
-    color:black;
+}
+
+.Jobs .card-text {
+    color: black;
     font-size: 0.9rem;
     margin-top: 10px;
-  }
-  .Jobs button{
-    width:150px;
-    height:50px;
+}
+
+.Jobs button {
+    width: 150px;
+    height: 50px;
     border: 3px solid whitesmoke;
     border-radius: 20px;
     background-color: purple;
     color: whitesmoke;
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .Jobs .card {
-      width: 370px;
-      height: 470px;
+        width: 370px;
+        height: 470px;
     }
+}
+
+
+
+/* Application form Styles */
+/* Application form Styles */
+.Application {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    border: 5px solid rgb(200, 12, 187);
+    border-radius: 20px;
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+}
+
+.Application form {
+    width: 100%;
+}
+
+.Application .form-group {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.Application h1 {
+    text-align: center;
+    font-size: 30px;
+    color: purple;
   }
-  
+
+.Application button {
+    color: whitesmoke;
+    font-size: 20px;
+    width: 50%;
+    height: 50px;
+    border: 3px solid whitesmoke;
+    border-radius: 20px;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    margin-top: 10px;
+    margin-left: 80px;
+
+}

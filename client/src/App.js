@@ -8,6 +8,7 @@ import Navbar from './Components/Navbar';
 import Community from './Components/Community'
 import Jobs from './Components/Jobs'
 import Home from './Components/Home'
+import JobApplication from './Components/JobApplication';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/Home" element={<Home/>}/>
           <Route path="/community" element={<Community />} />
           <Route path="/Jobs" element={<Jobs/>}/>
+          <Route path="/company" element={<JobApplication/>}/>
         </Routes>
       </div>
     </BrowserRouter>
