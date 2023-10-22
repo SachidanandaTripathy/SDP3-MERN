@@ -67,9 +67,7 @@ function Freshers() {
             </div>
           </div>
         ))}
-        
       </div>
-          
       <hr />
     </div>
   );
