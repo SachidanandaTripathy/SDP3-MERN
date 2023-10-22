@@ -1,0 +1,115 @@
+.carousel .carousel-item img {
+    width: 100%;
+    height: 500px;
+}
+
+.carousel .carousel-caption {
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.carousel button {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(179, 17, 173);
+    color: white;
+    font-size: 20px;
+    border: 3px solid whitesmoke;
+    border-radius: 30px;
+}
+
+
+
+
+.Home-Jobs{
+    margin-top: 20px;
+    
+}
+.Home-Jobs h2{
+    color: #07a211;
+}
+
+.Home-Jobs .container {
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+  }
+  
+  .Home-Jobs .container::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .Home-Jobs .row-card {
+    display: flex;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .Home-Jobs .card {
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  }
+  .Home-Jobs span{
+   
+    font-weight: bold;
+  }
+  
+  .Home-Jobs .card-body {
+    padding: 20px;
+  }
+  
+  .Home-Jobs .card-title {
+    font-size: 20px;
+    color: purple;
+    font-weight: bold;
+  }
+  
+  .Home-Jobs .vertical-line {
+    display: inline-block;
+    border-left: 1px solid rgb(22, 8, 8);
+    margin: 0 10px;
+    height: 12px;
+    vertical-align: middle;
+  }
+  
+  .Home-Jobs  .skill-tag {
+    display: inline-block;
+    background-color: #05be68;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+  }
+  
+  .Home-Jobs .card-text {
+    color:black;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  .Home-Jobs button{
+    width:150px;
+    height:50px;
+    border: 3px solid whitesmoke;
+    border-radius: 20px;
+    background-color: purple;
+    color: whitesmoke;
+  }
+  
+  @media (max-width: 768px) {
+    .Jobs .card {
+      width: 370px;
+      height: 470px;
+    }
+  }
+  

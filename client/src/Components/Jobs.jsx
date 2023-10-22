@@ -10,16 +10,14 @@ function Freshers() {
     const scroll = () => {
       if (rowRef.current) {
         const { scrollLeft, clientWidth } = rowRef.current;
-        rowRef.current.scrollLeft += cardWidth * 3;
+        rowRef.current.scrollLeft += cardWidth * 1;
 
         if (scrollLeft >= rowRef.current.scrollWidth - clientWidth) {
           rowRef.current.scrollLeft = 0;
         }
       }
     };
-
-    const interval = setInterval(scroll, 2000);
-
+    const interval = setInterval(scroll, 5000);
     return () => clearInterval(interval);
   }, []);
 
@@ -52,7 +50,7 @@ function Freshers() {
                   <span>Date Posted: </span> {job.datePosted}
                 </h6>
 
-                <h6 className="card-subtitle text-muted">Skills Required:</h6>
+                <h6 className="card-subtitle text-muted"><span>Skills Required:</span></h6>
                 <div>
                   {job.skillsRequired.map((skill, skillIndex) => (
                     <span key={skillIndex} className="skill-tag">
@@ -69,8 +67,9 @@ function Freshers() {
             </div>
           </div>
         ))}
+        
       </div>
-
+          
       <hr />
     </div>
   );
@@ -83,7 +82,7 @@ function Moderate_experience() {
     const scroll = () => {
       if (rowRef.current) {
         const { scrollLeft, clientWidth } = rowRef.current;
-        rowRef.current.scrollLeft += cardWidth * 2;
+        rowRef.current.scrollLeft += cardWidth * 1;
 
         if (scrollLeft >= rowRef.current.scrollWidth - clientWidth) {
           rowRef.current.scrollLeft = 0;
@@ -125,7 +124,7 @@ function Moderate_experience() {
                   <span>Date Posted: </span> {job.datePosted}
                 </h6>
 
-                <h6 className="card-subtitle text-muted">Skills Required:</h6>
+                <h6 className="card-subtitle text-muted"><span>Skills Required:</span></h6>
                 <div>
                   {job.skillsRequired.map((skill, skillIndex) => (
                     <span key={skillIndex} className="skill-tag">
@@ -156,7 +155,7 @@ function Senior() {
     const scroll = () => {
       if (rowRef.current) {
         const { scrollLeft, clientWidth } = rowRef.current;
-        rowRef.current.scrollLeft += cardWidth * 2;
+        rowRef.current.scrollLeft += cardWidth * 1;
 
         if (scrollLeft >= rowRef.current.scrollWidth - clientWidth) {
           rowRef.current.scrollLeft = 0;
@@ -198,7 +197,7 @@ function Senior() {
                   <span>Date Posted: </span> {job.datePosted}
                 </h6>
 
-                <h6 className="card-subtitle text-muted">Skills Required:</h6>
+                <h6 className="card-subtitle text-muted"><span>Skills Required:</span></h6>
                 <div>
                   {job.skillsRequired.map((skill, skillIndex) => (
                     <span key={skillIndex} className="skill-tag">
@@ -227,7 +226,7 @@ function Jobs() {
     <div>
       <Freshers />
       <Moderate_experience />
-      <Senior/>
+      <Senior />
     </div>
   )
 }

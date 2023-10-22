@@ -7,6 +7,7 @@ import { useAuth } from './AuthContext';
 import Navbar from './Components/Navbar';
 import Community from './Components/Community'
 import Jobs from './Components/Jobs'
+import Home from './Components/Home'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <ToastContainer />
         <Navbar />
         <Routes>
+          <Route path="/Home" element={<Home/>}/>
           <Route path="/community" element={<Community />} />
           <Route path="/Jobs" element={<Jobs/>}/>
         </Routes>
