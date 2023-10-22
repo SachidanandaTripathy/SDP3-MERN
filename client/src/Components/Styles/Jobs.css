@@ -1,0 +1,80 @@
+.Jobs{
+    margin-top: 20px;
+    
+}
+.Jobs h2{
+    color: #07a211;
+}
+
+.Jobs .container {
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+  }
+  
+  .Jobs .container::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .Jobs .row-card {
+    display: flex;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .Jobs .card {
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    width: 500px;
+    height: 350px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  }
+  .Jobs span{
+   
+    font-weight: bold;
+  }
+  
+  .Jobs .card-body {
+    padding: 20px;
+  }
+  
+  .Jobs .card-title {
+    font-size: 20px;
+    color: purple;
+    font-weight: bold;
+  }
+  
+  .Jobs .vertical-line {
+    display: inline-block;
+    border-left: 1px solid rgb(22, 8, 8);
+    margin: 0 10px;
+    height: 12px;
+    vertical-align: middle;
+  }
+  
+  .Jobs .skill-tag {
+    display: inline-block;
+    background-color: #05be68;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+  }
+  
+  .Jobs .card-text {
+    color: #777;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .Jobs .card {
+      width: 370px;
+      height: 370px;
+    }
+  }
+  

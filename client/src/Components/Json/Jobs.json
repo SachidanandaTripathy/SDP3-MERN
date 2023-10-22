@@ -1,0 +1,1271 @@
+[
+    {
+        "jobTitle": "Front-end Developer",
+        "companyName": "Infosys",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "Join Infosys as a front-end developer and work on exciting projects...",
+        "skillsRequired": [
+            "React.js",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹8,00,000 - ₹12,00,000",
+        "applicationDeadline": "2023-12-31",
+        "datePosted": "2023-10-20"
+    },
+    {
+        "jobTitle": "Data Scientist",
+        "companyName": "Tata Consultancy Services",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "TCS is hiring data scientists to work on data analytics projects...",
+        "skillsRequired": [
+            "Machine Learning",
+            "Python",
+            "Data Analysis"
+        ],
+        "experienceLevel": "Senior",
+        "salaryRange": "₹15,00,000 - ₹20,00,000",
+        "applicationDeadline": "2023-12-30",
+        "datePosted": "2023-10-18"
+    },
+    {
+        "jobTitle": "Digital Marketing Manager",
+        "companyName": "Amazon India",
+        "location": "New Delhi, Delhi",
+        "jobType": "Full-time",
+        "jobDescription": "Amazon India is looking for a digital marketing manager to drive online campaigns...",
+        "skillsRequired": [
+            "Digital Marketing",
+            "SEO",
+            "Social Media Management"
+        ],
+        "experienceLevel": "Senior",
+        "salaryRange": "₹18,00,000 - ₹25,00,000",
+        "applicationDeadline": "2023-12-28",
+        "datePosted": "2023-10-15"
+    },
+    {
+        "jobTitle": "Software Engineer",
+        "companyName": "Wipro Limited",
+        "location": "Pune, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Wipro is seeking software engineers to work on cutting-edge software products...",
+        "skillsRequired": [
+            "Java",
+            "C++",
+            "Software Development"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹10,00,000 - ₹14,00,000",
+        "applicationDeadline": "2023-12-25",
+        "datePosted": "2023-10-12"
+    },
+    {
+        "jobTitle": "Content Writer",
+        "companyName": "Hindustan Times",
+        "location": "New Delhi, Delhi",
+        "jobType": "Part-time",
+        "jobDescription": "Join Hindustan Times as a content writer and craft engaging articles...",
+        "skillsRequired": [
+            "Content Writing",
+            "Editing",
+            "SEO"
+        ],
+        "experienceLevel": "Entry-level",
+        "salaryRange": "₹4,00,000 - ₹6,00,000",
+        "applicationDeadline": "2023-12-20",
+        "datePosted": "2023-10-10"
+    },
+    {
+        "jobTitle": "Graphic Designer",
+        "companyName": "Flipkart",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "Flipkart is looking for creative graphic designers to develop visual content...",
+        "skillsRequired": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "UI/UX Design"
+        ],
+        "experienceLevel": "Entry-level",
+        "salaryRange": "₹6,00,000 - ₹8,00,000",
+        "applicationDeadline": "2023-12-18",
+        "datePosted": "2023-10-08"
+    },
+    {
+        "jobTitle": "Web Developer",
+        "companyName": "HCL Technologies",
+        "location": "Noida, Uttar Pradesh",
+        "jobType": "Full-time",
+        "jobDescription": "HCL Technologies is seeking skilled web developers to build responsive websites...",
+        "skillsRequired": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Angular"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹8,00,000 - ₹12,00,000",
+        "applicationDeadline": "2023-12-23",
+        "datePosted": "2023-10-05"
+    },
+    {
+        "jobTitle": "Business Analyst",
+        "companyName": "Tech Mahindra",
+        "location": "Hyderabad, Telangana",
+        "jobType": "Full-time",
+        "jobDescription": "Join Tech Mahindra as a business analyst and analyze business requirements...",
+        "skillsRequired": [
+            "Business Analysis",
+            "Requirement Gathering",
+            "Data Analysis"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹10,00,000 - ₹15,00,000",
+        "applicationDeadline": "2023-12-29",
+        "datePosted": "2023-10-01"
+    },
+    {
+        "jobTitle": "Product Manager",
+        "companyName": "MakeMyTrip",
+        "location": "Gurugram, Haryana",
+        "jobType": "Full-time",
+        "jobDescription": "MakeMyTrip is looking for skilled product managers to manage product development...",
+        "skillsRequired": [
+            "Product Management",
+            "Agile",
+            "Product Lifecycle"
+        ],
+        "experienceLevel": "Senior",
+        "salaryRange": "₹20,00,000 - ₹25,00,000",
+        "applicationDeadline": "2023-12-27",
+        "datePosted": "2023-09-28"
+    },
+    {
+        "jobTitle": "Quality Assurance Engineer",
+        "companyName": "Accenture",
+        "location": "Chennai, Tamil Nadu",
+        "jobType": "Full-time",
+        "jobDescription": "Accenture is hiring QA engineers to ensure the quality of software products...",
+        "skillsRequired": [
+            "Quality Assurance",
+            "Testing",
+            "Automation Testing"
+        ],
+        "experienceLevel": "Entry-level",
+        "salaryRange": "₹6,00,000 - ₹8,00,000",
+        "applicationDeadline": "2023-12-21",
+        "datePosted": "2023-09-25"
+    },
+    {
+        "jobTitle": "UI/UX Designer",
+        "companyName": "Adobe India",
+        "location": "Noida, Uttar Pradesh",
+        "jobType": "Full-time",
+        "jobDescription": "Adobe India is seeking talented UI/UX designers to create stunning user interfaces...",
+        "skillsRequired": [
+            "Adobe XD",
+            "Sketch",
+            "UI Design",
+            "UX Research"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹12,00,000 - ₹16,00,000",
+        "applicationDeadline": "2023-12-26",
+        "datePosted": "2023-09-23"
+    },
+    {
+        "jobTitle": "Cyber Security Analyst",
+        "companyName": "IBM India",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "IBM India is hiring cybersecurity analysts to protect the company's digital assets...",
+        "skillsRequired": [
+            "Cybersecurity",
+            "Ethical Hacking",
+            "Network Security"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹14,00,000 - ₹18,00,000",
+        "applicationDeadline": "2023-12-24",
+        "datePosted": "2023-09-21"
+    },
+    {
+        "jobTitle": "iOS Developer",
+        "companyName": "Apple India",
+        "location": "Hyderabad, Telangana",
+        "jobType": "Full-time",
+        "jobDescription": "Apple India is looking for skilled iOS developers to create innovative mobile applications...",
+        "skillsRequired": [
+            "Swift",
+            "iOS SDK",
+            "Objective-C"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹10,00,000 - ₹14,00,000",
+        "applicationDeadline": "2023-12-22",
+        "datePosted": "2023-09-18"
+    },
+    {
+        "jobTitle": "Database Administrator",
+        "companyName": "Oracle India",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Join Oracle India as a database administrator and manage the company's databases...",
+        "skillsRequired": [
+            "Database Management",
+            "SQL",
+            "Oracle DB"
+        ],
+        "experienceLevel": "Senior",
+        "salaryRange": "₹18,00,000 - ₹22,00,000",
+        "applicationDeadline": "2023-12-20",
+        "datePosted": "2023-09-15"
+    },
+    {
+        "jobTitle": "HR Manager",
+        "companyName": "Reliance Industries Limited",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Reliance Industries Limited is seeking HR managers to oversee human resource operations...",
+        "skillsRequired": [
+            "HR Management",
+            "Employee Relations",
+            "Recruitment"
+        ],
+        "experienceLevel": "Senior",
+        "salaryRange": "₹25,00,000 - ₹30,00,000",
+        "applicationDeadline": "2023-12-18",
+        "datePosted": "2023-09-12"
+    },
+    {
+        "jobTitle": "Business Development Manager",
+        "companyName": "Google India",
+        "location": "Hyderabad, Telangana",
+        "jobType": "Full-time",
+        "jobDescription": "Google India is looking for experienced business development managers to expand the company's market...",
+        "skillsRequired": [
+            "Business Development",
+            "Sales",
+            "Market Research"
+        ],
+        "experienceLevel": "Senior",
+        "salaryRange": "₹30,00,000 - ₹35,00,000",
+        "applicationDeadline": "2023-12-16",
+        "datePosted": "2023-09-10"
+    },
+    {
+        "jobTitle": "Network Engineer",
+        "companyName": "Cisco India",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "Cisco India is seeking network engineers to design and implement network solutions...",
+        "skillsRequired": [
+            "Networking",
+            "Routing",
+            "Switching"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹12,00,000 - ₹16,00,000",
+        "applicationDeadline": "2023-12-14",
+        "datePosted": "2023-09-08"
+    },
+    {
+        "jobTitle": "Sales Executive",
+        "companyName": "Bajaj Finserv",
+        "location": "Pune, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Join Bajaj Finserv as a sales executive and promote financial products and services...",
+        "skillsRequired": [
+            "Sales",
+            "Customer Acquisition",
+            "Financial Products"
+        ],
+        "experienceLevel": "Entry-level",
+        "salaryRange": "₹5,00,000 - ₹7,00,000",
+        "applicationDeadline": "2023-12-12",
+        "datePosted": "2023-09-05"
+    },
+    {
+        "jobTitle": "Supply Chain Manager",
+        "companyName": "ITC Limited",
+        "location": "Kolkata, West Bengal",
+        "jobType": "Full-time",
+        "jobDescription": "ITC Limited is seeking supply chain managers to optimize the company's supply chain operations...",
+        "skillsRequired": [
+            "Supply Chain Management",
+            "Logistics",
+            "Inventory Management"
+        ],
+        "experienceLevel": "Senior",
+        "salaryRange": "₹22,00,000 - ₹28,00,000",
+        "applicationDeadline": "2023-12-10",
+        "datePosted": "2023-09-03"
+    },
+    {
+        "jobTitle": "Legal Counsel",
+        "companyName": "ICICI Bank",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "ICICI Bank is looking for legal counsels to handle the company's legal affairs...",
+        "skillsRequired": [
+            "Legal Advisory",
+            "Contracts",
+            "Corporate Law"
+        ],
+        "experienceLevel": "Senior",
+        "salaryRange": "₹28,00,000 - ₹32,00,000",
+        "applicationDeadline": "2023-12-08",
+        "datePosted": "2023-09-01"
+    },
+    {
+        "jobTitle": "Public Relations Manager",
+        "companyName": "Vodafone Idea Limited",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Vodafone Idea Limited is seeking skilled PR managers to manage the company's public relations...",
+        "skillsRequired": [
+            "Public Relations",
+            "Media Relations",
+            "Crisis Management"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹14,00,000 - ₹18,00,000",
+        "applicationDeadline": "2023-12-06",
+        "datePosted": "2023-08-30"
+    },
+    {
+        "jobTitle": "Operations Manager",
+        "companyName": "Reliance Jio Infocomm Limited",
+        "location": "Navi Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Reliance Jio Infocomm Limited is looking for operations managers to oversee daily operations...",
+        "skillsRequired": [
+            "Operations Management",
+            "Process Improvement",
+            "Quality Control"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹16,00,000 - ₹20,00,000",
+        "applicationDeadline": "2023-12-04",
+        "datePosted": "2023-08-28"
+    },
+    {
+        "jobTitle": "Human Resources Coordinator",
+        "companyName": "Mahindra & Mahindra",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Mahindra & Mahindra is seeking HR coordinators to support human resource activities...",
+        "skillsRequired": [
+            "HR Operations",
+            "Recruitment",
+            "Employee Engagement"
+        ],
+        "experienceLevel": "Entry-level",
+        "salaryRange": "₹6,00,000 - ₹8,00,000",
+        "applicationDeadline": "2023-12-02",
+        "datePosted": "2023-08-25"
+    },
+    {
+        "jobTitle": "IT Support Specialist",
+        "companyName": "Hewlett Packard Enterprise",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "Hewlett Packard Enterprise is seeking IT support specialists to provide technical assistance...",
+        "skillsRequired": [
+            "IT Support",
+            "Troubleshooting",
+            "Help Desk"
+        ],
+        "experienceLevel": "Entry-level",
+        "salaryRange": "₹5,00,000 - ₹7,00,000",
+        "applicationDeadline": "2023-11-30",
+        "datePosted": "2023-08-23"
+    },
+    {
+        "jobTitle": "Business Intelligence Analyst",
+        "companyName": "Axis Bank",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Axis Bank is hiring business intelligence analysts to analyze data and provide insights...",
+        "skillsRequired": [
+            "Business Intelligence",
+            "Data Analysis",
+            "Reporting"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹12,00,000 - ₹16,00,000",
+        "applicationDeadline": "2023-11-28",
+        "datePosted": "2023-08-20"
+    },
+    {
+        "jobTitle": "DevOps Engineer",
+        "companyName": "Microsoft India",
+        "location": "Hyderabad, Telangana",
+        "jobType": "Full-time",
+        "jobDescription": "Microsoft India is seeking skilled DevOps engineers to streamline the development process...",
+        "skillsRequired": [
+            "DevOps",
+            "CI/CD",
+            "Cloud Computing"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹14,00,000 - ₹18,00,000",
+        "applicationDeadline": "2023-11-26",
+        "datePosted": "2023-08-18"
+    },
+    {
+        "jobTitle": "Data Engineer",
+        "companyName": "Walmart Labs",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "Walmart Labs is hiring data engineers to manage and optimize data pipelines...",
+        "skillsRequired": [
+            "Big Data",
+            "ETL",
+            "Data Warehousing"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹12,00,000 - ₹16,00,000",
+        "applicationDeadline": "2023-11-24",
+        "datePosted": "2023-08-15"
+    },
+    {
+        "jobTitle": "UI Developer",
+        "companyName": "Microsoft India Development Center",
+        "location": "Hyderabad, Telangana",
+        "jobType": "Full-time",
+        "jobDescription": "Microsoft India Development Center is seeking UI developers to create user-friendly interfaces...",
+        "skillsRequired": [
+            "UI Development",
+            "Front-end Development",
+            "User Experience Design"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹10,00,000 - ₹14,00,000",
+        "applicationDeadline": "2023-11-22",
+        "datePosted": "2023-08-12"
+    },
+    {
+        "jobTitle": "Full Stack Developer",
+        "companyName": "Cognizant",
+        "location": "Chennai, Tamil Nadu",
+        "jobType": "Full-time",
+        "jobDescription": "Cognizant is looking for full stack developers to work on diverse web development projects...",
+        "skillsRequired": [
+            "JavaScript",
+            "Node.js",
+            "MongoDB",
+            "Angular"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹12,00,000 - ₹16,00,000",
+        "applicationDeadline": "2023-11-20",
+        "datePosted": "2023-08-10"
+    },
+    {
+        "jobTitle": "Cloud Architect",
+        "companyName": "Infosys",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "Join Infosys as a cloud architect and design scalable cloud solutions...",
+        "skillsRequired": [
+            "Cloud Architecture",
+            "AWS",
+            "Azure",
+            "Google Cloud"
+        ],
+        "experienceLevel": "Senior",
+        "salaryRange": "₹20,00,000 - ₹25,00,000",
+        "applicationDeadline": "2023-11-18",
+        "datePosted": "2023-08-08"
+    },
+    {
+        "jobTitle": "Marketing Analyst",
+        "companyName": "Deloitte India",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Deloitte India is seeking marketing analysts to analyze market trends and consumer behavior...",
+        "skillsRequired": [
+            "Market Research",
+            "Data Analysis",
+            "Marketing Strategy"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹12,00,000 - ₹16,00,000",
+        "applicationDeadline": "2023-11-16",
+        "datePosted": "2023-08-06"
+    },
+    {
+        "jobTitle": "Systems Administrator",
+        "companyName": "TCS",
+        "location": "Chennai, Tamil Nadu",
+        "jobType": "Full-time",
+        "jobDescription": "TCS is hiring systems administrators to manage the company's IT infrastructure...",
+        "skillsRequired": [
+            "System Administration",
+            "Network Security",
+            "Server Management"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹10,00,000 - ₹14,00,000",
+        "applicationDeadline": "2023-11-14",
+        "datePosted": "2023-08-04"
+    },
+    {
+        "jobTitle": "Financial Analyst",
+        "companyName": "KPMG India",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "KPMG India is seeking financial analysts to provide financial planning and analysis...",
+        "skillsRequired": [
+            "Financial Analysis",
+            "Financial Modeling",
+            "Investment Analysis"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹12,00,000 - ₹16,00,000",
+        "applicationDeadline": "2023-11-12",
+        "datePosted": "2023-08-02"
+    },
+    {
+        "jobTitle": "Technical Writer",
+        "companyName": "Tech Mahindra",
+        "location": "Hyderabad, Telangana",
+        "jobType": "Full-time",
+        "jobDescription": "Tech Mahindra is looking for technical writers to create clear and concise technical documentation...",
+        "skillsRequired": [
+            "Technical Writing",
+            "Documentation",
+            "Content Development"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹10,00,000 - ₹14,00,000",
+        "applicationDeadline": "2023-11-10",
+        "datePosted": "2023-07-31"
+    },
+    {
+        "jobTitle": "Data Analyst",
+        "companyName": "Capgemini",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "Capgemini is hiring data analysts to interpret data and develop actionable insights...",
+        "skillsRequired": [
+            "Data Analysis",
+            "Statistical Analysis",
+            "Data Visualization"
+        ],
+        "experienceLevel": "Entry-level",
+        "salaryRange": "₹6,00,000 - ₹8,00,000",
+        "applicationDeadline": "2023-11-08",
+        "datePosted": "2023-07-29"
+    },
+    {
+        "jobTitle": "System Analyst",
+        "companyName": "IBM India",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "IBM India is seeking system analysts to analyze business requirements and design system solutions...",
+        "skillsRequired": [
+            "System Analysis",
+            "Requirement Gathering",
+            "System Design"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹14,00,000 - ₹18,00,000",
+        "applicationDeadline": "2023-11-06",
+        "datePosted": "2023-07-27"
+    },
+    {
+        "jobTitle": "Data Entry Operator",
+        "companyName": "Genpact",
+        "location": "Gurugram, Haryana",
+        "jobType": "Full-time",
+        "jobDescription": "Genpact is seeking data entry operators to enter and update data in databases...",
+        "skillsRequired": [
+            "Data Entry",
+            "MS Excel",
+            "Typing Skills"
+        ],
+        "experienceLevel": "Entry-level",
+        "salaryRange": "₹4,00,000 - ₹6,00,000",
+        "applicationDeadline": "2023-11-04",
+        "datePosted": "2023-07-25"
+    },
+    {
+        "jobTitle": "Business Consultant",
+        "companyName": "PwC India",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "PwC India is looking for business consultants to provide strategic advice to clients...",
+        "skillsRequired": [
+            "Business Strategy",
+            "Consulting",
+            "Market Analysis"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹16,00,000 - ₹20,00,000",
+        "applicationDeadline": "2023-11-02",
+        "datePosted": "2023-07-23"
+    },
+    {
+        "jobTitle": "ERP Consultant",
+        "companyName": "SAP India",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "SAP India is seeking ERP consultants to implement and integrate ERP solutions for clients...",
+        "skillsRequired": [
+            "ERP Implementation",
+            "SAP",
+            "Business Process"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹14,00,000 - ₹18,00,000",
+        "applicationDeadline": "2023-11-01",
+        "datePosted": "2023-07-21"
+    },
+    {
+        "jobTitle": "Supply Chain Analyst",
+        "companyName": "DHL India",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "DHL India is seeking supply chain analysts to optimize supply chain processes and logistics...",
+        "skillsRequired": [
+            "Supply Chain Analysis",
+            "Data Management",
+            "Logistics Optimization"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹12,00,000 - ₹16,00,000",
+        "applicationDeadline": "2023-10-30",
+        "datePosted": "2023-07-19"
+    },
+    {
+        "jobTitle": "Mechanical Engineer",
+        "companyName": "Larsen & Toubro",
+        "location": "Chennai, Tamil Nadu",
+        "jobType": "Full-time",
+        "jobDescription": "Larsen & Toubro is looking for mechanical engineers to design and oversee manufacturing processes...",
+        "skillsRequired": [
+            "Mechanical Engineering",
+            "AutoCAD",
+            "Manufacturing Processes"
+        ],
+        "experienceLevel": "Entry-level",
+        "salaryRange": "₹6,00,000 - ₹8,00,000",
+        "applicationDeadline": "2023-10-28",
+        "datePosted": "2023-07-17"
+    },
+    {
+        "jobTitle": "Tax Analyst",
+        "companyName": "EY India",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "EY India is seeking tax analysts to assist clients with tax planning and compliance...",
+        "skillsRequired": [
+            "Taxation",
+            "Tax Planning",
+            "Tax Compliance"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹14,00,000 - ₹18,00,000",
+        "applicationDeadline": "2023-10-26",
+        "datePosted": "2023-07-15"
+    },
+    {
+        "jobTitle": "Healthcare Consultant",
+        "companyName": "Apollo Hospitals",
+        "location": "Chennai, Tamil Nadu",
+        "jobType": "Full-time",
+        "jobDescription": "Apollo Hospitals is looking for healthcare consultants to provide strategic guidance in the healthcare industry...",
+        "skillsRequired": [
+            "Healthcare Management",
+            "Healthcare Strategy",
+            "Healthcare Operations"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹12,00,000 - ₹16,00,000",
+        "applicationDeadline": "2023-10-24",
+        "datePosted": "2023-07-13"
+    },
+    {
+        "jobTitle": "Electrical Engineer",
+        "companyName": "Siemens India",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "Siemens India is seeking electrical engineers to design and develop electrical systems...",
+        "skillsRequired": [
+            "Electrical Engineering",
+            "PLC Programming",
+            "Circuit Design"
+        ],
+        "experienceLevel": "Entry-level",
+        "salaryRange": "₹6,00,000 - ₹8,00,000",
+        "applicationDeadline": "2023-10-22",
+        "datePosted": "2023-07-11"
+    },
+    {
+        "jobTitle": "Logistics Coordinator",
+        "companyName": "Maersk India",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Maersk India is seeking logistics coordinators to manage and coordinate logistics operations...",
+        "skillsRequired": [
+            "Logistics Management",
+            "Supply Chain Coordination",
+            "International Shipping"
+        ],
+        "experienceLevel": "Entry-level",
+        "salaryRange": "₹5,00,000 - ₹7,00,000",
+        "applicationDeadline": "2023-10-20",
+        "datePosted": "2023-07-09"
+    },
+    {
+        "jobTitle": "Aerospace Engineer",
+        "companyName": "Airbus India",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "Airbus India is looking for aerospace engineers to design and develop aerospace components...",
+        "skillsRequired": [
+            "Aerospace Engineering",
+            "Aerodynamics",
+            "Aircraft Design"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹14,00,000 - ₹18,00,000",
+        "applicationDeadline": "2023-10-18",
+        "datePosted": "2023-07-07"
+    },
+    {
+        "jobTitle": "Medical Officer",
+        "companyName": "Fortis Healthcare",
+        "location": "Gurugram, Haryana",
+        "jobType": "Full-time",
+        "jobDescription": "Fortis Healthcare is seeking medical officers to provide medical care and treatment to patients...",
+        "skillsRequired": [
+            "Medical Diagnosis",
+            "Patient Care",
+            "Emergency Medicine"
+        ],
+        "experienceLevel": "Entry-level",
+        "salaryRange": "₹8,00,000 - ₹10,00,000",
+        "applicationDeadline": "2023-10-16",
+        "datePosted": "2023-07-05"
+    },
+    {
+        "jobTitle": "Artificial Intelligence Engineer",
+        "companyName": "Infosys",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "Infosys is seeking skilled AI engineers to develop innovative AI solutions...",
+        "skillsRequired": [
+            "Machine Learning",
+            "Python",
+            "Natural Language Processing"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹12,00,000 - ₹16,00,000",
+        "applicationDeadline": "2023-12-31",
+        "datePosted": "2023-10-20"
+    },
+    {
+        "jobTitle": "IT Project Manager",
+        "companyName": "Tech Mahindra",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Tech Mahindra is looking for experienced IT project managers to oversee IT projects...",
+        "skillsRequired": [
+            "Project Management",
+            "Agile Methodologies",
+            "IT Operations"
+        ],
+        "experienceLevel": "Senior",
+        "salaryRange": "₹18,00,000 - ₹22,00,000",
+        "applicationDeadline": "2023-12-30",
+        "datePosted": "2023-10-18"
+    },
+    {
+        "jobTitle": "Data Engineer",
+        "companyName": "Google India",
+        "location": "Hyderabad, Telangana",
+        "jobType": "Full-time",
+        "jobDescription": "Google India is seeking data engineers to manage and optimize data pipelines...",
+        "skillsRequired": [
+            "Big Data",
+            "ETL",
+            "Data Warehousing"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹14,00,000 - ₹18,00,000",
+        "applicationDeadline": "2023-12-28",
+        "datePosted": "2023-10-15"
+    },
+    {
+        "jobTitle": "UX Researcher",
+        "companyName": "Microsoft India",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "Microsoft India is seeking UX researchers to conduct user research and provide insights...",
+        "skillsRequired": [
+            "User Research",
+            "Usability Testing",
+            "Human-Computer Interaction"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹12,00,000 - ₹16,00,000",
+        "applicationDeadline": "2023-12-25",
+        "datePosted": "2023-10-12"
+    },
+    {
+        "jobTitle": "Financial Advisor",
+        "companyName": "HDFC Bank",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "HDFC Bank is seeking financial advisors to provide financial planning and investment advice...",
+        "skillsRequired": [
+            "Financial Planning",
+            "Investment Management",
+            "Wealth Management"
+        ],
+        "experienceLevel": "Entry-level",
+        "salaryRange": "₹6,00,000 - ₹9,00,000",
+        "applicationDeadline": "2023-12-20",
+        "datePosted": "2023-10-10"
+    },
+    {
+        "jobTitle": "Mobile App Developer",
+        "companyName": "Samsung India",
+        "location": "Noida, Uttar Pradesh",
+        "jobType": "Full-time",
+        "jobDescription": "Samsung India is looking for skilled mobile app developers to create innovative mobile applications...",
+        "skillsRequired": [
+            "Android Development",
+            "iOS Development",
+            "Mobile UI/UX"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹10,00,000 - ₹14,00,000",
+        "applicationDeadline": "2023-12-18",
+        "datePosted": "2023-10-08"
+    },
+    {
+        "jobTitle": "Chief Technology Officer",
+        "companyName": "Flipkart",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "Flipkart is seeking a Chief Technology Officer to lead the company's technology strategy...",
+        "skillsRequired": [
+            "Technology Strategy",
+            "Leadership",
+            "Innovation Management"
+        ],
+        "experienceLevel": "Senior",
+        "salaryRange": "₹35,00,000 - ₹45,00,000",
+        "applicationDeadline": "2023-12-23",
+        "datePosted": "2023-10-05"
+    },
+    {
+        "jobTitle": "Environmental Analyst",
+        "companyName": "Greenpeace India",
+        "location": "New Delhi, Delhi",
+        "jobType": "Full-time",
+        "jobDescription": "Greenpeace India is seeking environmental analysts to conduct research and analysis on environmental issues...",
+        "skillsRequired": [
+            "Environmental Research",
+            "Data Analysis",
+            "Climate Change"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹10,00,000 - ₹14,00,000",
+        "applicationDeadline": "2023-12-29",
+        "datePosted": "2023-10-01"
+    },
+    {
+        "jobTitle": "UI/UX Manager",
+        "companyName": "Amazon India",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "Amazon India is seeking a UI/UX manager to lead the design of user-friendly interfaces...",
+        "skillsRequired": [
+            "UI Design",
+            "UX Design",
+            "Team Management"
+        ],
+        "experienceLevel": "Senior",
+        "salaryRange": "₹20,00,000 - ₹25,00,000",
+        "applicationDeadline": "2023-12-27",
+        "datePosted": "2023-09-28"
+    },
+    {
+        "jobTitle": "Social Worker",
+        "companyName": "Oxfam India",
+        "location": "New Delhi, Delhi",
+        "jobType": "Full-time",
+        "jobDescription": "Oxfam India is seeking social workers to work on social development projects and initiatives...",
+        "skillsRequired": [
+            "Community Development",
+            "Social Welfare",
+            "Advocacy"
+        ],
+        "experienceLevel": "Entry-level",
+        "salaryRange": "₹4,00,000 - ₹6,00,000",
+        "applicationDeadline": "2023-12-21",
+        "datePosted": "2023-09-25"
+    },
+    {
+        "jobTitle": "Business Process Analyst",
+        "companyName": "Wipro Limited",
+        "location": "Pune, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Wipro Limited is seeking business process analysts to analyze and optimize business processes...",
+        "skillsRequired": [
+            "Business Process Analysis",
+            "Process Optimization",
+            "Workflow Management"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹12,00,000 - ₹16,00,000",
+        "applicationDeadline": "2023-12-26",
+        "datePosted": "2023-09-23"
+    },
+    {
+        "jobTitle": "Software Development Engineer",
+        "companyName": "Tata Consultancy Services",
+        "location": "Chennai, Tamil Nadu",
+        "jobType": "Full-time",
+        "jobDescription": "Tata Consultancy Services is looking for software development engineers to develop high-quality software...",
+        "skillsRequired": [
+            "Software Development",
+            "Java",
+            "Agile Development"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹14,00,000 - ₹18,00,000",
+        "applicationDeadline": "2023-12-24",
+        "datePosted": "2023-09-20"
+    },
+    {
+        "jobTitle": "Cybersecurity Analyst",
+        "companyName": "Accenture",
+        "location": "Gurgaon, Haryana",
+        "jobType": "Full-time",
+        "jobDescription": "Accenture is seeking cybersecurity analysts to protect systems and networks from cyber threats...",
+        "skillsRequired": [
+            "Cybersecurity",
+            "Incident Response",
+            "Security Operations"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹16,00,000 - ₹20,00,000",
+        "applicationDeadline": "2023-12-22",
+        "datePosted": "2023-09-18"
+    },
+    {
+        "jobTitle": "Product Manager",
+        "companyName": "Paytm",
+        "location": "Noida, Uttar Pradesh",
+        "jobType": "Full-time",
+        "jobDescription": "Paytm is looking for product managers to oversee product development and strategy...",
+        "skillsRequired": [
+            "Product Management",
+            "Agile Methodologies",
+            "Market Analysis"
+        ],
+        "experienceLevel": "Senior",
+        "salaryRange": "₹25,00,000 - ₹30,00,000",
+        "applicationDeadline": "2023-12-19",
+        "datePosted": "2023-09-15"
+    },
+    {
+        "jobTitle": "Blockchain Developer",
+        "companyName": "IBM India",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "IBM India is seeking blockchain developers to create and implement blockchain solutions...",
+        "skillsRequired": [
+            "Blockchain Development",
+            "Smart Contracts",
+            "Distributed Ledger Technology"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹18,00,000 - ₹22,00,000",
+        "applicationDeadline": "2023-12-17",
+        "datePosted": "2023-09-12"
+    },
+    {
+        "jobTitle": "Content Writer",
+        "companyName": "Times Internet",
+        "location": "Noida, Uttar Pradesh",
+        "jobType": "Full-time",
+        "jobDescription": "Times Internet is seeking content writers to create engaging and informative content...",
+        "skillsRequired": [
+            "Content Writing",
+            "SEO",
+            "Copywriting"
+        ],
+        "experienceLevel": "Entry-level",
+        "salaryRange": "₹6,00,000 - ₹8,00,000",
+        "applicationDeadline": "2023-12-15",
+        "datePosted": "2023-09-10"
+    },
+    {
+        "jobTitle": "AI Research Scientist",
+        "companyName": "IBM Research India",
+        "location": "New Delhi, Delhi",
+        "jobType": "Full-time",
+        "jobDescription": "IBM Research India is seeking AI research scientists to conduct cutting-edge AI research...",
+        "skillsRequired": [
+            "Artificial Intelligence",
+            "Deep Learning",
+            "Research Methodology"
+        ],
+        "experienceLevel": "Senior",
+        "salaryRange": "₹30,00,000 - ₹40,00,000",
+        "applicationDeadline": "2023-12-12",
+        "datePosted": "2023-09-08"
+    },
+    {
+        "jobTitle": "Cloud Solutions Architect",
+        "companyName": "Amazon Web Services (AWS) India",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "AWS India is seeking cloud solutions architects to design and implement scalable cloud solutions...",
+        "skillsRequired": [
+            "Cloud Architecture",
+            "AWS Services",
+            "DevOps"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹20,00,000 - ₹25,00,000",
+        "applicationDeadline": "2023-12-10",
+        "datePosted": "2023-09-05"
+    },
+    {
+        "jobTitle": "Digital Marketing Manager",
+        "companyName": "MakeMyTrip",
+        "location": "Gurugram, Haryana",
+        "jobType": "Full-time",
+        "jobDescription": "MakeMyTrip is looking for digital marketing managers to develop and execute digital marketing strategies...",
+        "skillsRequired": [
+            "Digital Marketing",
+            "SEO",
+            "Social Media Marketing"
+        ],
+        "experienceLevel": "Senior",
+        "salaryRange": "₹18,00,000 - ₹22,00,000",
+        "applicationDeadline": "2023-12-08",
+        "datePosted": "2023-09-02"
+    },
+    {
+        "jobTitle": "Supply Chain Analyst",
+        "companyName": "Reliance Industries",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Reliance Industries is seeking supply chain analysts to optimize supply chain operations...",
+        "skillsRequired": [
+            "Supply Chain Management",
+            "Data Analysis",
+            "Logistics"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹14,00,000 - ₹18,00,000",
+        "applicationDeadline": "2023-12-06",
+        "datePosted": "2023-08-30"
+    },
+    {
+        "jobTitle": "HR Business Partner",
+        "companyName": "HCL Technologies",
+        "location": "Noida, Uttar Pradesh",
+        "jobType": "Full-time",
+        "jobDescription": "HCL Technologies is seeking HR business partners to align HR initiatives with business goals...",
+        "skillsRequired": [
+            "HR Management",
+            "Employee Relations",
+            "Organizational Development"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹16,00,000 - ₹20,00,000",
+        "applicationDeadline": "2023-12-04",
+        "datePosted": "2023-08-28"
+    },
+    {
+        "jobTitle": "Sales Executive",
+        "companyName": "Bajaj Finserv",
+        "location": "Pune, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Bajaj Finserv is seeking sales executives to promote and sell financial products...",
+        "skillsRequired": [
+            "Sales",
+            "Customer Relationship Management",
+            "Financial Products"
+        ],
+        "experienceLevel": "Entry-level",
+        "salaryRange": "₹8,00,000 - ₹10,00,000",
+        "applicationDeadline": "2023-12-02",
+        "datePosted": "2023-08-25"
+    },
+    {
+        "jobTitle": "Operations Manager",
+        "companyName": "Delhivery",
+        "location": "Gurugram, Haryana",
+        "jobType": "Full-time",
+        "jobDescription": "Delhivery is looking for operations managers to oversee and improve operational processes...",
+        "skillsRequired": [
+            "Operations Management",
+            "Logistics",
+            "Process Improvement"
+        ],
+        "experienceLevel": "Senior",
+        "salaryRange": "₹22,00,000 - ₹28,00,000",
+        "applicationDeadline": "2023-11-30",
+        "datePosted": "2023-08-23"
+    },
+    {
+        "jobTitle": "UX Designer",
+        "companyName": "Flipkart",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "Flipkart is seeking UX designers to create intuitive and user-friendly digital experiences...",
+        "skillsRequired": [
+            "UX Design",
+            "UI Prototyping",
+            "User Research"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹14,00,000 - ₹18,00,000",
+        "applicationDeadline": "2023-11-28",
+        "datePosted": "2023-08-20"
+    },
+    {
+        "jobTitle": "Data Scientist",
+        "companyName": "Wipro Technologies",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "Wipro Technologies is seeking data scientists to extract insights from complex data sets...",
+        "skillsRequired": [
+            "Data Science",
+            "Machine Learning",
+            "Statistical Analysis"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹16,00,000 - ₹20,00,000",
+        "applicationDeadline": "2023-11-26",
+        "datePosted": "2023-08-18"
+    },
+    {
+        "jobTitle": "Mechanical Engineer",
+        "companyName": "Larsen & Toubro",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Larsen & Toubro is seeking mechanical engineers to design and oversee the production of mechanical systems...",
+        "skillsRequired": [
+            "Mechanical Engineering",
+            "CAD",
+            "Manufacturing Processes"
+        ],
+        "experienceLevel": "Entry-level",
+        "salaryRange": "₹10,00,000 - ₹12,00,000",
+        "applicationDeadline": "2023-11-24",
+        "datePosted": "2023-08-16"
+    },
+    {
+        "jobTitle": "Investment Analyst",
+        "companyName": "Kotak Mahindra Bank",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Kotak Mahindra Bank is seeking investment analysts to conduct research and analysis on investment opportunities...",
+        "skillsRequired": [
+            "Financial Analysis",
+            "Investment Management",
+            "Market Research"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹18,00,000 - ₹22,00,000",
+        "applicationDeadline": "2023-11-22",
+        "datePosted": "2023-08-14"
+    },
+    {
+        "jobTitle": "Mobile App Developer",
+        "companyName": "Infosys",
+        "location": "Bengaluru, Karnataka",
+        "jobType": "Full-time",
+        "jobDescription": "Infosys is seeking mobile app developers to build innovative and user-friendly mobile applications...",
+        "skillsRequired": [
+            "Mobile App Development",
+            "iOS",
+            "Android"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹14,00,000 - ₹18,00,000",
+        "applicationDeadline": "2023-11-20",
+        "datePosted": "2023-08-12"
+    },
+    {
+        "jobTitle": "Environmental Scientist",
+        "companyName": "Tata Environmental Research Institute",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Tata Environmental Research Institute is seeking environmental scientists to conduct research on environmental issues...",
+        "skillsRequired": [
+            "Environmental Science",
+            "Research Methodology",
+            "Data Analysis"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹16,00,000 - ₹20,00,000",
+        "applicationDeadline": "2023-11-18",
+        "datePosted": "2023-08-10"
+    },
+    {
+        "jobTitle": "Legal Counsel",
+        "companyName": "Hindustan Unilever Limited",
+        "location": "Mumbai, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Hindustan Unilever Limited is seeking legal counsels to provide expert legal advice and support...",
+        "skillsRequired": [
+            "Legal Advisory",
+            "Contract Law",
+            "Corporate Governance"
+        ],
+        "experienceLevel": "Senior",
+        "salaryRange": "₹22,00,000 - ₹28,00,000",
+        "applicationDeadline": "2023-11-16",
+        "datePosted": "2023-08-08"
+    },
+    {
+        "jobTitle": "Quality Assurance Engineer",
+        "companyName": "Tech Mahindra",
+        "location": "Pune, Maharashtra",
+        "jobType": "Full-time",
+        "jobDescription": "Tech Mahindra is seeking quality assurance engineers to ensure the quality and performance of software products...",
+        "skillsRequired": [
+            "Quality Assurance",
+            "Testing",
+            "Automation Testing"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹14,00,000 - ₹18,00,000",
+        "applicationDeadline": "2023-11-14",
+        "datePosted": "2023-08-06"
+    },
+    {
+        "jobTitle": "Medical Officer",
+        "companyName": "Apollo Hospitals",
+        "location": "Chennai, Tamil Nadu",
+        "jobType": "Full-time",
+        "jobDescription": "Apollo Hospitals is seeking medical officers to provide high-quality healthcare services...",
+        "skillsRequired": [
+            "Medicine",
+            "Patient Care",
+            "Emergency Response"
+        ],
+        "experienceLevel": "Mid-level",
+        "salaryRange": "₹18,00,000 - ₹22,00,000",
+        "applicationDeadline": "2023-11-12",
+        "datePosted": "2023-08-04"
+    }
+]

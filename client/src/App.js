@@ -6,6 +6,7 @@ import { useAuth } from './AuthContext';
 
 import Navbar from './Components/Navbar';
 import Community from './Components/Community'
+import Jobs from './Components/Jobs'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/community" element={<Community />} />
+          <Route path="/Jobs" element={<Jobs/>}/>
         </Routes>
       </div>
     </BrowserRouter>
