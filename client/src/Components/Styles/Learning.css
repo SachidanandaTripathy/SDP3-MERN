@@ -1,0 +1,130 @@
+/* Resume Styles */
+.LearnResume {
+    margin-top: 15px;
+}
+.LearnResume .resume-section {
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    border: 5px solid rgb(175, 13, 170);
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.LearnResume .resume-section h2 {
+    color: rgb(3, 72, 25);
+    text-align: center;
+}
+.LearnResume .resume-section p {
+    color: #555;
+    text-align: center;
+}
+.LearnResume .resume-section a {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #410dc4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.LearnResume .resume-section a:hover {
+    background-color: rgb(171, 13, 174);
+}
+.LearnResume hr {
+    color: rgb(198, 11, 167);
+    border-top: 1px solid #ccc;
+}
+
+
+
+/* course Styles */
+.LearnCourse {
+}
+
+.LearnCourse .course {
+    padding: 50px 0;
+}
+
+.LearnCourse .card {
+    height: 400px; 
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.LearnCourse .card-img-top {
+    height: 150px;
+    flex: 1;
+    object-fit: cover;
+}
+
+.LearnCourse .card-body {
+    text-align: center;
+    flex: 1;
+}
+
+.LearnCourse .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.LearnCourse .card-text {
+    font-size: 16px;
+    color: #555;
+    overflow: hidden;
+}
+
+.LearnCourse .btn-primary {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 8px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.LearnCourse .btn-primary:hover {
+    background-color: #45a049;
+}
+
+
+I
+
+
+/* Interview Styles */
+.Interview{
+    padding: 20px;
+}
+.Interview .card {
+    margin-bottom: 20px;
+}
+
+.Interview .no-underline {
+    text-decoration: none;
+}
+
+
+
+/* Mistake Styles */
+.mistakes{
+    padding: 20px;
+}
+.mistakes .card {
+    margin-bottom: 10px;
+}
+
+.mistakes .card-header {
+    padding: 10px;
+}
+
+.mistakes .card-body {
+    padding: 10px;
+}

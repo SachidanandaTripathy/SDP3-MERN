@@ -1267,5 +1267,182 @@
         "salaryRange": "₹18,00,000 - ₹22,00,000",
         "applicationDeadline": "2023-11-12",
         "datePosted": "2023-08-04"
-    }
+    },
+    {
+        "jobTitle": "Data Science Intern",
+        "companyName": "Microsoft",
+        "location": "Redmond, Washington",
+        "jobType": "Internship",
+        "jobDescription": "Intern with Microsoft's data science team and contribute to data analysis and machine learning projects.",
+        "skillsRequired": [
+          "Python",
+          "R",
+          "Data Analysis",
+          "Machine Learning"
+        ],
+        "experienceLevel": "Entry Level",
+        "salaryRange": "$25 - $35 per hour",
+        "applicationDeadline": "2023-11-25",
+        "datePosted": "2023-10-23"
+      },
+      {
+        "jobTitle": "Business Development Intern",
+        "companyName": "Amazon",
+        "location": "Seattle, Washington",
+        "jobType": "Internship",
+        "jobDescription": "Join Amazon's business development team as an intern and assist in identifying new business opportunities.",
+        "skillsRequired": [
+          "Market Research",
+          "Business Strategy",
+          "Communication"
+        ],
+        "experienceLevel": "Entry Level",
+        "salaryRange": "$20 - $30 per hour",
+        "applicationDeadline": "2023-11-20",
+        "datePosted": "2023-10-23"
+      },
+      {
+        "jobTitle": "Human Resources Intern",
+        "companyName": "Apple",
+        "location": "Cupertino, California",
+        "jobType": "Internship",
+        "jobDescription": "Intern with Apple's human resources team and gain valuable experience in HR operations and management.",
+        "skillsRequired": [
+          "Human Resources",
+          "Employee Relations",
+          "Organizational Skills"
+        ],
+        "experienceLevel": "Entry Level",
+        "salaryRange": "$20 - $25 per hour",
+        "applicationDeadline": "2023-11-15",
+        "datePosted": "2023-10-24"
+      },
+      {
+        "jobTitle": "Content Writing Intern",
+        "companyName": "Netflix",
+        "location": "Los Gatos, California",
+        "jobType": "Internship",
+        "jobDescription": "Work with Netflix's content team as an intern and assist in creating engaging content for various platforms.",
+        "skillsRequired": [
+          "Writing",
+          "Editing",
+          "Content Creation"
+        ],
+        "experienceLevel": "Entry Level",
+        "salaryRange": "$15 - $20 per hour",
+        "applicationDeadline": "2023-11-10",
+        "datePosted": "2023-10-24"
+      },
+      {
+        "jobTitle": "Finance Intern",
+        "companyName": "Goldman Sachs",
+        "location": "New York City, New York",
+        "jobType": "Internship",
+        "jobDescription": "Intern with Goldman Sachs' finance team and assist in financial analysis and reporting.",
+        "skillsRequired": [
+          "Finance",
+          "Accounting",
+          "Analytical Skills"
+        ],
+        "experienceLevel": "Entry Level",
+        "salaryRange": "$25 - $35 per hour",
+        "applicationDeadline": "2023-11-30",
+        "datePosted": "2023-10-25"
+      },
+      {
+        "jobTitle": "Product Management Intern",
+        "companyName": "LinkedIn",
+        "location": "Sunnyvale, California",
+        "jobType": "Internship",
+        "jobDescription": "Intern with LinkedIn's product management team and contribute to the development of various LinkedIn products.",
+        "skillsRequired": [
+          "Product Management",
+          "Market Research",
+          "Product Development"
+        ],
+        "experienceLevel": "Entry Level",
+        "salaryRange": "$20 - $30 per hour",
+        "applicationDeadline": "2023-11-25",
+        "datePosted": "2023-10-25"
+      },
+      {
+        "jobTitle": "Graphic Design Intern",
+        "companyName": "Adobe",
+        "location": "San Jose, California",
+        "jobType": "Internship",
+        "jobDescription": "Join Adobe as a graphic design intern and contribute to the creation of visually stunning designs for various projects.",
+        "skillsRequired": [
+          "Adobe Creative Suite",
+          "Graphic Design",
+          "Creativity"
+        ],
+        "experienceLevel": "Entry Level",
+        "salaryRange": "$18 - $25 per hour",
+        "applicationDeadline": "2023-11-15",
+        "datePosted": "2023-10-26"
+      },
+      {
+        "jobTitle": "Marketing Intern",
+        "companyName": "Google",
+        "location": "Mountain View, California",
+        "jobType": "Internship",
+        "jobDescription": "Intern with Google's marketing team and assist in creating and implementing marketing strategies for various products.",
+        "skillsRequired": [
+          "Digital Marketing",
+          "Market Analysis",
+          "Communication"
+        ],
+        "experienceLevel": "Entry Level",
+        "salaryRange": "$20 - $30 per hour",
+        "applicationDeadline": "2023-11-20",
+        "datePosted": "2023-10-26"
+      },
+      {
+        "jobTitle": "Software Engineering Intern",
+        "companyName": "Facebook",
+        "location": "Menlo Park, California",
+        "jobType": "Internship",
+        "jobDescription": "Intern with Facebook's software engineering team and contribute to the development of innovative software solutions.",
+        "skillsRequired": [
+          "Java",
+          "C++",
+          "Software Development"
+        ],
+        "experienceLevel": "Entry Level",
+        "salaryRange": "$30 - $40 per hour",
+        "applicationDeadline": "2023-11-30",
+        "datePosted": "2023-10-27"
+      },
+      {
+        "jobTitle": "Research Intern",
+        "companyName": "IBM",
+        "location": "Armonk, New York",
+        "jobType": "Internship",
+        "jobDescription": "Intern with IBM's research team and contribute to cutting-edge research projects in various fields.",
+        "skillsRequired": [
+          "Research",
+          "Data Analysis",
+          "Problem Solving"
+        ],
+        "experienceLevel": "Entry Level",
+        "salaryRange": "$25 - $35 per hour",
+        "applicationDeadline": "2023-11-25",
+        "datePosted": "2023-10-27"
+      },
+      {
+        "jobTitle": "Cybersecurity Intern",
+        "companyName": "Cisco",
+        "location": "San Jose, California",
+        "jobType": "Internship",
+        "jobDescription": "Work with Cisco's cybersecurity team as an intern and assist in ensuring the security of Cisco's systems and networks.",
+        "skillsRequired": [
+          "Cybersecurity",
+          "Network Security",
+          "Information Security"
+        ],
+        "experienceLevel": "Entry Level",
+        "salaryRange": "$25 - $35 per hour",
+        "applicationDeadline": "2023-11-15",
+        "datePosted": "2023-10-28"
+      }
 ]

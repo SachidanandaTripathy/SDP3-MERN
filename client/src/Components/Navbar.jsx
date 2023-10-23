@@ -23,7 +23,7 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <NavLink to={"/Home"} className="nav-link">Home</NavLink>
+                                <NavLink to={"/"} className="nav-link">Home</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink to={"/Jobs"} className="nav-link">Jobs</NavLink>
