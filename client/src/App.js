@@ -8,9 +8,8 @@ import Navbar from './Components/Navbar';
 import Community from './Components/Community'
 import Jobs from './Components/Jobs'
 import Home from './Components/Home'
-import JobApplication from './Components/JobApplication';
 import Learning from './Components/Learning';
-
+import Comapany from './Components/Comapany';
 
 function App() {
   const { user } = useAuth();
@@ -23,7 +22,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/community" element={<Community />} />
           <Route path="/Jobs" element={<Jobs/>}/>
-          <Route path="/company" element={<JobApplication/>}/>
+          <Route path="/company" element={<Comapany/>}/>
           <Route path="/learning" element={<Learning/>}/>
         </Routes>
       </div>

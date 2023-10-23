@@ -1,0 +1,61 @@
+[
+    {
+        "title": "E-commerce and Online Services (EOS)",
+        "companies": [
+            "Amazon India",
+            "Flipkart",
+            "MakeMyTrip",
+            "Netflix"
+        ]
+    },
+    {
+        "title": "Information Technology and Software Services (ITSS)",
+        "companies": [
+            "Infosys",
+            "TCS (Tata Consultancy Services)",
+            "Wipro"
+        ]
+    },
+    {
+        "title": "Media and Publishing (MP)",
+        "companies": [
+            "Hindustan Times"
+        ]
+    },
+    {
+        "title": "Financial Services and Banking (FSB)",
+        "companies": [
+            "Bajaj Finserv",
+            "ITC",
+            "ICICI Bank"
+        ]
+    },
+    {
+        "title": "Telecommunications and Network Providers (TNP)",
+        "companies": [
+            "Vodafone Idea",
+            "Reliance Jio"
+        ]
+    },
+    {
+        "title": "Industrial and Manufacturing Conglomerates (IMC)",
+        "companies": [
+            "Reliance Industries",
+            "Mahindra & Mahindra"
+        ]
+    },
+    {
+        "title": "Healthcare and Pharmaceuticals (HP)",
+        "companies": [
+            "Apollo Hospitals"
+        ]
+    },
+    {
+        "title": "Education Technology (ET)",
+        "companies": [
+            "Byjus",
+            "Unacademy",
+            "vedantu"
+        ]
+    }
+]
