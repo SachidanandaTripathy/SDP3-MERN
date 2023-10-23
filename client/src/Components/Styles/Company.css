@@ -58,3 +58,42 @@
     border-radius: 20px;
     font-size: 14px;
 }
+
+
+
+
+
+
+.companies{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+
+    justify-content: center;
+    gap: 1em;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.companies .company-card{
+    border-radius: 25px;
+    color: white;
+    background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+    text-align: center;
+    padding: 10px;
+    border: 5px solid whitesmoke;
+    width: 300px;
+    height:250px;
+}
+.companies button{
+    width:150px;
+    height:50px;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+}
