@@ -10,6 +10,7 @@ const login = require("./Routes/Login")
 const post=require("./Routes/CommunityPost")
 const postRetrieve=require("./Routes/CommunityRetrieve")
 const Application=require("./Routes/ApplicationForm")
+const ApplicationsRetrieve=require("./Routes/ApplicationRetrieve")
 
 
 
@@ -36,6 +37,7 @@ app.use("/api", login);
 app.use("/api", post);
 app.use("/api",postRetrieve)
 app.use("/api",Application)
+app.use('/api',ApplicationsRetrieve)
 
 
 //listening on port

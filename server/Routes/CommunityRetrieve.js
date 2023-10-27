@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Post = require('../models/Post');
 
-// GET request to fetch all community post data
+
 router.get('/community', async (req, res) => {
   try {
     const allPosts = await Post.find();

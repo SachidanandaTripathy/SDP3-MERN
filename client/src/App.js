@@ -5,25 +5,32 @@ import 'react-toastify/dist/ReactToastify.css';
 import { useAuth } from './AuthContext';
 
 import Navbar from './Components/Navbar';
-import Community from './Components/Community'
-import Jobs from './Components/Jobs'
-import Home from './Components/Home'
+import Community from './Components/Community';
+import Jobs from './Components/Jobs';
+import Home from './Components/Home';
 import Learning from './Components/Learning';
-import Comapany from './Components/Comapany';
+import Company from './Components/Comapany';
+import AppliedStudent from './Components/AppliedStudent';
+
 
 function App() {
-  const { user } = useAuth();
+  const auth = useAuth();
+  const user = auth && auth.user;
+
   return (
     <BrowserRouter>
       <div className="App">
         <ToastContainer />
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/" element={<Home />} />
           <Route path="/community" element={<Community />} />
-          <Route path="/Jobs" element={<Jobs/>}/>
-          <Route path="/company" element={<Comapany/>}/>
-          <Route path="/learning" element={<Learning/>}/>
+
+          <Route path="/Jobs" element={<Jobs />} />
+          <Route path="/company" element={<Company />} />
+          <Route path="/learning" element={<Learning />} />
+
+          <Route path="/Applications" element={<AppliedStudent />} />
         </Routes>
       </div>
     </BrowserRouter>

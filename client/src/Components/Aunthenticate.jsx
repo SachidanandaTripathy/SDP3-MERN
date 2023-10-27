@@ -163,16 +163,15 @@ function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
+
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
             const response = await axios.post('http://localhost:8000/api/login', { email, password });
-            console.log("fghjkl")
+
             if (response.data === "invalid") {
-                console.log(response.data);
                 toast.info("unauthorised credentials", { position: "bottom-right" });
             } else if (response.data === "newuser") {
-                console.log(response.data);
                 toast.info("unauthorised credentials", { position: "bottom-right" });
             } else if (response.status === 200) {
                 const userData = response.data.user;
@@ -181,7 +180,10 @@ function Login() {
                     position: "bottom-right",
                     theme: "dark",
                 });
-                console.log('User Data:', userData);
+                
+                // const sessionId = response.headers['set-cookie'][0].split(';')[0].split('=')[1];
+                // const expirationTime = new Date(Date.now() + 60 * 1000);
+                // document.cookie = `sessionId=${sessionId}; expires=${expirationTime.toUTCString()}`;
             }
         } catch (error) {
             console.error("Error during login:", error);
@@ -190,9 +192,12 @@ function Login() {
                 theme: "dark",
             });
         }
+
         setEmail('');
         setPassword('');
     };
+
+
 
 
     return (

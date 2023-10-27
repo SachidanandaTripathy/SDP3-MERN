@@ -1,15 +1,17 @@
 import React from 'react';
-
 import './Styles/Navbar.css';
 import { NavLink } from 'react-router-dom';
 import { useAuth } from './../AuthContext';
-import { Login,RegistrationForm } from './Aunthenticate'
+import { Login, RegistrationForm } from './Aunthenticate';
 
 function Navbar() {
     const auth = useAuth();
+    const user = auth.user;
+
     const handleLogout = () => {
         auth.logout();
-    }
+    };
+
     return (
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -25,12 +27,21 @@ function Navbar() {
                             <li className="nav-item">
                                 <NavLink to={"/"} className="nav-link">Home</NavLink>
                             </li>
-                            <li className="nav-item">
-                                <NavLink to={"/Jobs"} className="nav-link">Jobs</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink to={"/company"} className="nav-link">Companies</NavLink>
-                            </li>
+                            {/* {user && user.role === 'Student' && ( */}
+                                <>
+                                    <li className="nav-item">
+                                        <NavLink to={"/Jobs"} className="nav-link">Jobs</NavLink>
+                                    </li>
+                                    <li className="nav-item">
+                                        <NavLink to={"/company"} className="nav-link">Companies</NavLink>
+                                    </li>
+                                </>
+                            {/* )} */}
+                            {/* {user && user.role === 'Company' && ( */}
+                                <li className="nav-item">
+                                    <NavLink to={"/Applications"} className="nav-link">Applications</NavLink>
+                                </li>
+                            {/* )} */}
                             <li className="nav-item">
                                 <NavLink to={"/community"} className="nav-link">Community</NavLink>
                             </li>

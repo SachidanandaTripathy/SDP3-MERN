@@ -20,6 +20,7 @@ function JobApplication() {
   const [phoneNumber, setPhoneNumber] = useState('');
   const [resume, setResume] = useState(null);
   const [coverLetter, setCoverLetter] = useState('');
+  const [passportPhoto, setPassportPhoto] = useState(null);
 
   const handleFormSubmit = async (event) => {
     event.preventDefault();
@@ -29,6 +30,7 @@ function JobApplication() {
     formData.append('phoneNumber', phoneNumber);
     formData.append('coverLetter', coverLetter);
     formData.append('resume', resume);
+    formData.append('passportPhoto', passportPhoto);
     formData.append('companyName', globalCompanyName);
     formData.append('jobTitle', globalJobTitle);
 
@@ -81,6 +83,10 @@ function JobApplication() {
                   <div className="form-group">
                     <label htmlFor="resume">Upload Resume:</label>
                     <input type="file" className="form-control-file" required onChange={(e) => setResume(e.target.files[0])} />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="passportPhoto">Passport Photo:</label>
+                    <input type="file" className="form-control-file" required onChange={(e) => setPassportPhoto(e.target.files[0])} />
                   </div>
                   <div className="form-group">
                     <label htmlFor="coverLetter">Describe yourself:</label>

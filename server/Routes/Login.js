@@ -20,11 +20,12 @@ router.post('/login', async (req, res) => {
         }
         console.log(validPassword);
         const data = {
-            fname:user.fname,
-            lname:user.lname,
+            fname: user.fname,
+            lname: user.lname,
             email: user.email,
             role: user.role,
         }
+
 
         res.status(200).send({
             message: "Login Successful",
