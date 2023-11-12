@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import { toast } from "react-toastify";
 import { useAuth } from './../AuthContext';
-
+import ReCAPTCHA from 'react-google-recaptcha';
 import './Styles/Aunthenticate.css';
 
 
@@ -146,8 +146,6 @@ function RegistrationForm() {
                                     Sign Up
                                 </button>
 
-                                {/* {message && <p className={message.includes('successfully') ? 'success' : 'error'}>{message}</p>} */}
-
                                 <p className="signin">Already have an account? <a href="#">Sign in</a></p>
                             </form>
                         </div>
@@ -162,6 +160,13 @@ function Login() {
     const auth = useAuth();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [captchaValue, setCaptchaValue] = useState('');
+    const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
+
+    const handleCaptchaChange = (value) => {
+        setCaptchaValue(value);
+        setIsCaptchaVerified(true);
+    };
 
 
     const handleSubmit = async (e) => {
@@ -180,7 +185,7 @@ function Login() {
                     position: "bottom-right",
                     theme: "dark",
                 });
-                
+
                 // const sessionId = response.headers['set-cookie'][0].split(';')[0].split('=')[1];
                 // const expirationTime = new Date(Date.now() + 60 * 1000);
                 // document.cookie = `sessionId=${sessionId}; expires=${expirationTime.toUTCString()}`;
@@ -255,11 +260,15 @@ function Login() {
                                             </div>
                                             <span className="span">Forgot password?</span>
                                         </div>
+                                        <ReCAPTCHA
+                                            sitekey="6LcD3fMoAAAAAHmVlyjyk6QTOl3lrKAPej7_hDYy"
+                                            onChange={handleCaptchaChange}
+                                        />
 
-                                        <button className="button-submit" type="submit">Sign In</button>
+                                        <button className="button-submit" type="submit" disabled={!isCaptchaVerified}>Sign In</button>
 
                                         <p className="p">Don't have an account? <span className="span">Sign Up</span></p>
-                                        {/* {message && <p className="message">{message}</p>} */}
+
                                     </form>
                                 </div>
                             </div>

@@ -11,6 +11,9 @@ const post=require("./Routes/CommunityPost")
 const postRetrieve=require("./Routes/CommunityRetrieve")
 const Application=require("./Routes/ApplicationForm")
 const ApplicationsRetrieve=require("./Routes/ApplicationRetrieve")
+const shoerlist=require("./Routes/shortlist")
+
+const verifyToken=require("./Middlewares/VerifyTokeb")
 
 
 
@@ -33,11 +36,12 @@ app.use(cors({
 
 
 app.use("/api", register);
-app.use("/api", login);
+app.use("/api",login);
 app.use("/api", post);
 app.use("/api",postRetrieve)
 app.use("/api",Application)
 app.use('/api',ApplicationsRetrieve)
+app.use('/api',shoerlist)
 
 
 //listening on port

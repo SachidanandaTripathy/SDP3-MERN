@@ -8,7 +8,7 @@ function Freshers() {
   const [randomJobs, setRandomJobs] = useState([]);
 
   useEffect(() => {
-    const shuffledJobs = jobsData.sort(() => 0.5 - Math.random()).slice(0, 6);
+    const shuffledJobs = jobsData.sort(() => 0.5 - Math.random()).slice(0, 3);
     setRandomJobs(shuffledJobs);
   }, []);
 
@@ -56,7 +56,7 @@ function Freshers() {
             </div>
           </div>
         ))}
-        <JobApplication/>
+        <JobApplication />
         <button>view more</button>
       </div>
 
@@ -119,6 +119,7 @@ function Home() {
     <div>
       <Carousel />
       <Freshers />
+
     </div>
   )
 }

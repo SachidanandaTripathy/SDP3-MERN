@@ -27,7 +27,8 @@ function Navbar() {
                             <li className="nav-item">
                                 <NavLink to={"/"} className="nav-link">Home</NavLink>
                             </li>
-                            {/* {user && user.role === 'Student' && ( */}
+                            
+                            {!user || (user && user.role === 'Student') ? (
                                 <>
                                     <li className="nav-item">
                                         <NavLink to={"/Jobs"} className="nav-link">Jobs</NavLink>
@@ -36,12 +37,12 @@ function Navbar() {
                                         <NavLink to={"/company"} className="nav-link">Companies</NavLink>
                                     </li>
                                 </>
-                            {/* )} */}
-                            {/* {user && user.role === 'Company' && ( */}
+                            ) : null}
+                            {user && user.role === 'Company' && (
                                 <li className="nav-item">
                                     <NavLink to={"/Applications"} className="nav-link">Applications</NavLink>
                                 </li>
-                            {/* )} */}
+                            )}
                             <li className="nav-item">
                                 <NavLink to={"/community"} className="nav-link">Community</NavLink>
                             </li>

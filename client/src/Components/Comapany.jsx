@@ -5,18 +5,44 @@ import companies from './Json/Companies.json'
 import Pagination from "react-js-pagination";
 
 function Companies() {
+    const [searchTerm, setSearchTerm] = useState('');
     const [currentPage, setCurrentPage] = useState(1);
     const companiesPerPage = 7;
+
+    const filteredCompanies = companies.filter(company =>
+        company.companyName.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
     const indexOfLastCompany = currentPage * companiesPerPage;
     const indexOfFirstCompany = indexOfLastCompany - companiesPerPage;
-    const currentCompanies = companies.slice(indexOfFirstCompany, indexOfLastCompany);
+    const currentCompanies = filteredCompanies.slice(indexOfFirstCompany, indexOfLastCompany);
 
     const handlePageChange = (pageNumber) => {
         setCurrentPage(pageNumber);
     };
 
+    const handleSearch = (event) => {
+        setSearchTerm(event.target.value);
+        setCurrentPage(1); 
+    };
+
     return (
         <>
+            <div style={{ display: "flex", justifyContent: "center", margin: "20px" }}>
+                <input
+                    type="text"
+                    placeholder="Search by company name"
+                    value={searchTerm}
+                    onChange={handleSearch}
+                    style={{
+                        padding: '10px',
+                        width: '300px',
+                        borderRadius: '5px',
+                        border: '1px solid #ccc',
+                        fontSize: '16px',
+                    }}
+                />
+            </div>
             <div className="companies">
                 {currentCompanies.map((company, index) => (
                     <div key={index} className="company-card">
@@ -24,8 +50,8 @@ function Companies() {
                             <h3>{company.companyName}</h3>
                         </div>
                         <div className="company-card-body">
-                            <p>Review: 5</p>
-                            <p>Rating: nice</p>
+                            <p>Review: {company.review}</p>
+                            <p>Rating: {company.rating}</p>
                             <button>View More</button>
                         </div>
                     </div>
@@ -35,7 +61,7 @@ function Companies() {
                 <Pagination
                     activePage={currentPage}
                     itemsCountPerPage={companiesPerPage}
-                    totalItemsCount={companies.length}
+                    totalItemsCount={filteredCompanies.length}
                     pageRangeDisplayed={7}
                     onChange={handlePageChange}
                     itemClass="page-item"
@@ -44,7 +70,6 @@ function Companies() {
                 />
             </div>
         </>
-
     );
 }
 
