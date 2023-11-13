@@ -11,6 +11,7 @@ import Home from './Components/Home';
 import Learning from './Components/Learning';
 import Company from './Components/Comapany';
 import AppliedStudent from './Components/AppliedStudent';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
 
           <Route path="/Applications" element={<AppliedStudent />} />
         </Routes>
+        <Footer/>
       </div>
     </BrowserRouter>
   );

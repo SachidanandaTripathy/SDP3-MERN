@@ -26,7 +26,6 @@ const Post = () => {
                     <div className="post" key={index}>
                          <h4>{post.title}</h4>
                         <div className="post-author">
-                           
                             <span>{post.author}</span>
                             <span className="author-options">...</span>
                         </div>

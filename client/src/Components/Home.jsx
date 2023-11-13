@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Styles/HomePage.css';
 
 import jobsData from './Json/Jobs.json';
@@ -6,6 +7,11 @@ import JobApplication from './JobApplication';
 
 function Freshers() {
   const [randomJobs, setRandomJobs] = useState([]);
+  const navigate = useNavigate();
+
+  const handleViewMoreClick = () => {
+    navigate('/Jobs');
+  };
 
   useEffect(() => {
     const shuffledJobs = jobsData.sort(() => 0.5 - Math.random()).slice(0, 3);
@@ -57,7 +63,7 @@ function Freshers() {
           </div>
         ))}
         <JobApplication />
-        <button>view more</button>
+        <button onClick={handleViewMoreClick}>View More</button>
       </div>
 
     </div>
