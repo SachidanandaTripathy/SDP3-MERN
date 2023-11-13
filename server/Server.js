@@ -12,6 +12,7 @@ const postRetrieve=require("./Routes/CommunityRetrieve")
 const Application=require("./Routes/ApplicationForm")
 const ApplicationsRetrieve=require("./Routes/ApplicationRetrieve")
 const shoerlist=require("./Routes/shortlist")
+const reject=require("./Routes/Reject")
 
 const verifyToken=require("./Middlewares/VerifyTokeb")
 
@@ -42,6 +43,7 @@ app.use("/api",postRetrieve)
 app.use("/api",Application)
 app.use('/api',ApplicationsRetrieve)
 app.use('/api',shoerlist)
+app.use('/api',reject)
 
 
 //listening on port

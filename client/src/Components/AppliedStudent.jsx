@@ -33,15 +33,29 @@ export default function AppliedStudent() {
 
   const handleShortlist = (email) => {
     if (email) {
-      
       axios.post('http://localhost:8000/api/shortlist', { email })
         .then(response => {
-          
           alert('Applicant shortlisted successfully!');
         })
         .catch(error => {
-         
           console.error('Error shortlisting applicant:', error);
+        });
+    } else {
+      console.error('Email not found or undefined');
+    }
+  };
+
+  const handleReject = (email) => {
+    if (email) {
+      axios.delete(`http://localhost:8000/api/application/${email}`)
+        .then(response => {
+         
+          alert('Applicant rejected and application deleted successfully!');
+        
+          setApplications(applications.filter(app => app.email !== email));
+        })
+        .catch(error => {
+          console.error('Error rejecting applicant:', error);
         });
     } else {
       console.error('Email not found or undefined');
@@ -92,7 +106,7 @@ export default function AppliedStudent() {
             </div>
             <div className="Buttons">
               <button onClick={() => handleShortlist(application.email)}>Shortlist</button>
-              <button>Reject</button>
+              <button onClick={() => handleReject(application.email)}>Reject</button>
             </div>
           </div>
         ))}
