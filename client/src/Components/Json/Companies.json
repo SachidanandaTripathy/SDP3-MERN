@@ -1,89 +1,176 @@
 [
     {
-        "companyName": "Infosys"
+        "companyName": "Infosys",
+        "rating": 4.5,
+        "numberOfReviews": 1200,
+        "description": "Infosys is a global leader in consulting and technology services, known for its innovative solutions and commitment to excellence."
     },
     {
-        "companyName": "Tata Consultancy Services"
+        "companyName": "Tata Consultancy Services",
+        "rating": 4.2,
+        "numberOfReviews": 1500,
+        "description": "Tata Consultancy Services (TCS) is a leading IT services and consulting company, delivering cutting-edge solutions to clients worldwide."
     },
     {
-        "companyName": "Amazon India"
+        "companyName": "Amazon India",
+        "rating": 4.8,
+        "numberOfReviews": 2000,
+        "description": "Amazon India is the Indian subsidiary of the global e-commerce giant, offering a wide range of products and services to Indian consumers."
     },
     {
-        "companyName": "Wipro Limited"
+        "companyName": "Wipro Limited",
+        "rating": 4.0,
+        "numberOfReviews": 1000,
+        "description": "Wipro Limited is a leading global information technology, consulting, and business process services company, known for its commitment to sustainability and social responsibility."
     },
     {
-        "companyName": "Hindustan Times"
+        "companyName": "Hindustan Times",
+        "rating": 4.2,
+        "numberOfReviews": 800,
+        "description": "Hindustan Times is one of India's largest English-language newspapers, delivering news and information to a diverse readership."
     },
     {
-        "companyName": "Flipkart"
+        "companyName": "Flipkart",
+        "rating": 4.7,
+        "numberOfReviews": 1800,
+        "description": "Flipkart is a leading Indian e-commerce marketplace, offering a wide range of products and services to online shoppers."
     },
     {
-        "companyName": "HCL Technologies"
+        "companyName": "HCL Technologies",
+        "rating": 4.1,
+        "numberOfReviews": 1300,
+        "description": "HCL Technologies is a global IT services and consulting company, providing innovative solutions to enterprises across various industries."
     },
     {
-        "companyName": "Tech Mahindra"
+        "companyName": "Tech Mahindra",
+        "rating": 4.0,
+        "numberOfReviews": 1100,
+        "description": "Tech Mahindra is a leading provider of digital transformation, consulting, and business re-engineering services."
     },
     {
-        "companyName": "MakeMyTrip"
+        "companyName": "MakeMyTrip",
+        "rating": 4.6,
+        "numberOfReviews": 1600,
+        "description": "MakeMyTrip is India's leading online travel company, offering a wide range of travel services and products."
     },
     {
-        "companyName": "Accenture"
+        "companyName": "Accenture",
+        "rating": 4.7,
+        "numberOfReviews": 2200,
+        "description": "Accenture is a global professional services company, providing a broad range of services in strategy, consulting, digital, technology, and operations."
     },
     {
-        "companyName": "Adobe India"
+        "companyName": "Adobe India",
+        "rating": 4.5,
+        "numberOfReviews": 900,
+        "description": "Adobe India is a subsidiary of Adobe Inc., a multinational software company known for its creativity and multimedia software products."
     },
     {
-        "companyName": "IBM India"
+        "companyName": "IBM India",
+        "rating": 4.3,
+        "numberOfReviews": 1400,
+        "description": "IBM India is the Indian subsidiary of IBM, a global technology and consulting company, providing a wide range of products and services."
     },
     {
-        "companyName": "Apple India"
+        "companyName": "Apple India",
+        "rating": 4.9,
+        "numberOfReviews": 2500,
+        "description": "Apple India is the Indian arm of Apple Inc., a multinational technology company known for its iconic hardware, software, and consumer electronics."
     },
     {
-        "companyName": "Oracle India"
+        "companyName": "Oracle India",
+        "rating": 4.4,
+        "numberOfReviews": 1100,
+        "description": "Oracle India is the Indian subsidiary of Oracle Corporation, a global technology company specializing in database management systems and cloud services."
     },
     {
-        "companyName": "Reliance Industries Limited"
+        "companyName": "Reliance Industries Limited",
+        "rating": 4.6,
+        "numberOfReviews": 2000,
+        "description": "Reliance Industries Limited is a diversified conglomerate with interests in petrochemicals, refining, oil, and gas exploration, telecommunications, and retail."
     },
     {
-        "companyName": "Google India"
+        "companyName": "Google India",
+        "rating": 4.8,
+        "numberOfReviews": 2800,
+        "description": "Google India is the Indian subsidiary of Google, a multinational technology company known for its search engine, online advertising technologies, and various internet-related services."
     },
     {
-        "companyName": "Cisco India"
+        "companyName": "Cisco India",
+        "rating": 4.3,
+        "numberOfReviews": 1200,
+        "description": "Cisco India is the Indian arm of Cisco Systems, a global technology company that designs, manufactures, and sells networking equipment and services."
     },
     {
-        "companyName": "Bajaj Finserv"
+        "companyName": "Bajaj Finserv",
+        "rating": 4.2,
+        "numberOfReviews": 900,
+        "description": "Bajaj Finserv is a financial services company in India, providing a range of financial products and services, including loans, insurance, and investment."
     },
     {
-        "companyName": "ITC Limited"
+        "companyName": "ITC Limited",
+        "rating": 4.0,
+        "numberOfReviews": 800,
+        "description": "ITC Limited is a diversified conglomerate in India with businesses spanning fast-moving consumer goods (FMCG), hotels, paperboards, and packaging."
     },
     {
-        "companyName": "ICICI Bank"
+        "companyName": "ICICI Bank",
+        "rating": 4.1,
+        "numberOfReviews": 1000,
+        "description": "ICICI Bank is a leading private sector bank in India, offering a wide range of banking and financial products and services to its customers."
     },
     {
-        "companyName": "Vodafone Idea Limited"
+        "companyName": "Vodafone Idea Limited",
+        "rating": 3.9,
+        "numberOfReviews": 700,
+        "description": "Vodafone Idea Limited is one of India's largest telecommunications service providers, offering a range of mobile and internet services."
     },
     {
-        "companyName": "Reliance Jio Infocomm Limited"
+        "companyName": "Reliance Jio Infocomm Limited",
+        "rating": 4.5,
+        "numberOfReviews": 1800,
+        "description": "Reliance Jio Infocomm Limited, commonly known as Jio, is a telecommunications company in India, providing 4G LTE services, and more recently, 5G services."
     },
     {
-        "companyName": "Mahindra & Mahindra"
+        "companyName": "Mahindra & Mahindra",
+        "rating": 4.2,
+        "numberOfReviews": 1200,
+        "description": "Mahindra & Mahindra is a leading Indian multinational automobile manufacturer, producing a wide range of vehicles, from two-wheelers to heavy trucks."
     },
     {
-        "companyName": "Hewlett Packard Enterprise"
+        "companyName": "Hewlett Packard Enterprise",
+        "rating": 4.1,
+        "numberOfReviews": 1000,
+        "description": "Hewlett Packard Enterprise (HPE) is a global technology company providing IT solutions, software, and hardware products for businesses."
     },
     {
-        "companyName": "Axis Bank"
+        "companyName": "Axis Bank",
+        "rating": 4.0,
+        "numberOfReviews": 900,
+        "description": "Axis Bank is a private sector bank in India, offering a range of financial products and services, including retail banking, corporate banking, and more."
     },
     {
-        "companyName": "Microsoft India"
+        "companyName": "Microsoft India",
+        "rating": 4.6,
+        "numberOfReviews": 1500,
+        "description": "Microsoft India is the Indian subsidiary of Microsoft Corporation, a multinational technology company known for its software, hardware, and other technology products."
     },
     {
-        "companyName": "Walmart Labs"
+        "companyName": "Walmart Labs",
+        "rating": 4.4,
+        "numberOfReviews": 1300,
+        "description": "Walmart Labs is the technology arm of Walmart, focused on developing innovative solutions and technologies to enhance the retail experience."
     },
     {
-        "companyName": "Deloitte India"
+        "companyName": "Deloitte India",
+        "rating": 4.7,
+        "numberOfReviews": 1700,
+        "description": "Deloitte India is the Indian arm of Deloitte, a global professional services firm providing audit, tax, consulting, and advisory services."
     },
     {
-        "companyName": "Netflix"
+        "companyName": "Netflix",
+        "rating": 4.8,
+        "numberOfReviews": 2500,
+        "description": "Netflix is a streaming giant that revolutionized the entertainment industry, providing a vast library of content to a global audience."
     }
 ]

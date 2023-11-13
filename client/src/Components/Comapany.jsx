@@ -23,7 +23,7 @@ function Companies() {
 
     const handleSearch = (event) => {
         setSearchTerm(event.target.value);
-        setCurrentPage(1); 
+        setCurrentPage(1);
     };
 
     return (
@@ -50,8 +50,9 @@ function Companies() {
                             <h3>{company.companyName}</h3>
                         </div>
                         <div className="company-card-body">
-                            <p>Review: {company.review}</p>
                             <p>Rating: {company.rating}</p>
+                            <p>Number of Reviews: {company.numberOfReviews}</p>
+                            <p>{company.description}</p>
                             <button>View More</button>
                         </div>
                     </div>
@@ -61,7 +62,7 @@ function Companies() {
                 <Pagination
                     activePage={currentPage}
                     itemsCountPerPage={companiesPerPage}
-                    totalItemsCount={filteredCompanies.length}
+                    totalItemsCount={companies.length}
                     pageRangeDisplayed={7}
                     onChange={handlePageChange}
                     itemClass="page-item"
@@ -124,8 +125,8 @@ function Company() {
     return (
         <div>
             <CompanyCategory />
-            <h2 style={{display:"flex",justifyContent:"center",padding:"10px"}}>Companies Actively Hiring</h2>
-            <hr/>
+            <h2 style={{ display: "flex", justifyContent: "center", padding: "10px" }}>Companies Actively Hiring</h2>
+            <hr />
             <Companies />
         </div>
     );
